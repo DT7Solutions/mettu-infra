@@ -5021,3 +5021,33 @@ footer.bg-dark .footer-bottom {
   float: right !important;
   padding-top: 10px;
 }
+
+.main-banner .content h1{
+  color: white !important;
+}
+.main-banner .content h1 span{
+  color: rgb(233, 62, 10);
+}
+.main-banner .content p{
+  color: white !important;
+}
+
+.about-sec-row .my-auto{
+  margin-top: 35px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: #fff;
+  background-color: #54514F;
+}
+
+.our-spec .row .content p{
+  overflow: hidden !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+}
+
+.services-area .feature-desc{
+  margin-top: 65px !important;
+}

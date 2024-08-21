@@ -318,7 +318,7 @@
                 "<i class='fa fa-angle-left'></i>",
                 "<i class='fa fa-angle-right'></i>"
             ],
-            dots: true,
+            dots: false,
             autoplay: true,
             responsive: {
                 0: {
