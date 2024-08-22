@@ -600,6 +600,7 @@ input {
   margin-left: 0;
 }
 
+.shadow .site-heading h4,
 .shadow .site-heading h2, 
 .shadow .site-heading p {
   color: #ffffff;
