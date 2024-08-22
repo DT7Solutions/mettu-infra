@@ -23,8 +23,8 @@
     <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
     <link href="assets/css/animate.css" rel="stylesheet" />
     <link href="assets/css/bootsnav.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet">
     <!-- ========== End Stylesheet ========== -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -42,91 +42,68 @@
 
 <body>
 
-    <!-- Preloader Start -->
+    <!-- ==================Preloader Start================== -->
     <div class="se-pre-con"></div>
-    <!-- Preloader Ends -->
+    <!-- ==================Preloader Ends================== -->
 
-    <!-- Header 
-    ============================================= -->
+    <!-- ========================Start Header===================== -->
     <header id="home">
-
-        <!-- Start Navigation -->
-        <div class="wrap-sticky" style="height: 61px;"><nav class="navbar navbar-default attr-border navbar-sticky bootsnav on no-full">
-
-            <!-- Start Top Search -->
-            <div class="container">
-                <div class="row">
-                    <div class="top-search">
-                        <div class="input-group">
-                            <form action="#">
-                                <input type="text" name="text" class="form-control" placeholder="Search">
-                                <button type="submit">
-                                    <i class="fas fa-search"></i>
-                                </button>  
-                            </form>
+        <div class="wrap-sticky" style="height: 61px;">
+            <nav class="navbar navbar-default attr-border navbar-sticky bootsnav on no-full">
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="top-search">
+                            <div class="input-group">
+                                <form action="#">
+                                    <input type="text" name="text" class="form-control" placeholder="Search">
+                                    <button type="submit">
+                                        <i class="fas fa-search"></i>
+                                    </button>  
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- End Top Search -->
 
-            <div class="container">
+                <div class="container">
 
-                <!-- Start Atribute Navigation -->
-                <div class="attr-nav">
-                    <ul>
-                        <li class="search pt-4"><a data-animation="animated slideInUp" class="btn btn-light effect btn-md text-light" href="#" style="margin-top: 6px;"><i class="fas fa-arrow-alt-circle-down"></i>Broacher</a></li>
-                    </ul>
-                </div>        
-                <!-- End Atribute Navigation -->
+                    <div class="attr-nav">
+                        <ul>
+                            <li class="search pt-4"><a data-animation="animated slideInUp" class="btn btn-light effect btn-md text-light" href="#" style="margin-top: 6px;"><i class="fas fa-arrow-alt-circle-down"></i>Broacher</a></li>
+                        </ul>
+                    </div>
 
-                <!-- Start Header Navigation -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/mettu_infrastructures_logo.png" class="logo" alt="Logo" width="200">
-                    </a>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/img/mettu_infrastructures_logo.png" class="logo" alt="Logo" width="200">
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
+                            <li class="active"><a class="smooth-menu" href="/">Home</a></li>
+                            <li class=""><a class="smooth-menu" href="./about">About</a></li>
+                            <li class=""><a class="smooth-menu" href="./gallery">Gallery</a></li>
+                            <li class=""><a class="smooth-menu" href="./works">Works</a></li>
+                            <li class=""><a class="smooth-menu" href="./blog">blog</a></li>
+                            <li class=""><a class="smooth-menu" href="./contact">Contact</a></li>
+                        </ul>
+                    </div>
+
                 </div>
-                <!-- End Header Navigation -->
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
-                        <li class="active">
-                            <a class="smooth-menu" href="/">Home</a>
-                        </li>
-                        <li class="">
-                            <a class="smooth-menu" href="./about">About</a>
-                        </li>
-                        <li class="">
-                            <a class="smooth-menu" href="./gallery">Gallery</a>
-                        </li>
-                        <li class="">
-                            <a class="smooth-menu" href="./works">Works</a>
-                        </li>
-                        <li class="">
-                            <a class="smooth-menu" href="./blog">blog</a>
-                        </li>
-                        <li>
-                            <a class="smooth-menu" href="./contact">Contact</a>
-                        </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div>
-
-        </nav></div>
-        <!-- End Navigation -->
-
+            </nav>
+        </div>
     </header>
-    <!-- End Header -->
+    <!-- ========================End Header===================== -->
 
-    <!-- Start Banner 
-    ============================================= -->
+    <!-- ========================Start Banner===================== -->
     <div class="banner-area mobile-auto inc-top-heading inc-paragraph shadow-less">
         <div id="bootcarousel" class="carousel inc-top-heading slide carousel-fade animate_text" data-ride="carousel">
-            <!-- Wrapper for slides -->
+
             <div class="carousel-inner transparent-nav carousel-zoom main-banner">
                 <div class="item active">
                     <div class="slider-thumb bg-cover" style="background-image: url(assets/img/banners/banner1.webp);"></div>
@@ -189,9 +166,7 @@
                     </div>
                 </div>
             </div>
-            <!-- End Wrapper for slides -->
 
-            <!-- Left and right controls -->
             <a class="left carousel-control shadow" href="#bootcarousel" data-slide="prev">
                 <i class="fa fa-angle-left"></i>
                 <span class="sr-only">Previous</span>
@@ -200,22 +175,24 @@
                 <i class="fa fa-angle-right"></i>
                 <span class="sr-only">Next</span>
             </a>
+
         </div>
     </div>
-    <!-- End Banner -->
+    <!-- ========================End Banner===================== -->
 
-    <!-- Start Our About
-    ============================================= -->
+    <!-- ======================Start Our About======================= -->
     <div class="about-area default-padding inc-more">
         <div class="container">
             <div class="row about-sec-row">
+
                 <div class="col-md-6 thumb mt-5">
                     <img src="assets/img/about/mettu-infra-about.webp" alt="Thumb">
                 </div>
+
                 <div class="col-md-6 info" >
                     <div class="my-auto">
                         <h4>About us</h4>
-                        <!-- Tab Nav -->
+
                         <ul class="nav nav-pills" style="margin-bottom: 13px;">
                             <li class="equal-height active" style="height: 52px;">
                                 <a data-toggle="tab" href="#tab1" aria-expanded="false">
@@ -233,8 +210,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <!-- End Tab Nav -->
-                        <!-- Start Tab Content -->
+
                         <div class="tab-content tab-content-info">
                             <!-- Tab Item -->
                             <div id="tab1" class="tab-pane fade active in">
@@ -253,7 +229,6 @@
                                 </div>
                             </div>
                             <!-- End Tab Item -->
-                    
                             <!-- Tab Item -->
                             <div id="tab2" class="tab-pane fade">
                                 <div class="info title">
@@ -270,7 +245,6 @@
                                 </div>
                             </div>
                             <!-- End Tab Item -->
-                    
                             <!-- Tab Item -->
                             <div id="tab3" class="tab-pane fade ">
                                 <div class="info title">
@@ -289,19 +263,19 @@
                             <!-- End Tab Item -->
                         </div>
                     </div>
-                    <!-- End Tab Content -->
+
                 </div>
+
             </div>
         </div>
     </div>
-    <!-- End Our About -->
+    <!-- ======================End Our About======================= -->
 
-    <!-- Start Services
-    ============================================= -->
-
+    <!-- ========================Start Services===================== -->
     <div class="services-area left-info flex-less inc-thumb inc-border carousel-shadow default-padding">
         <div class="container">
             <div class="row">
+
                 <div class="col-md-4 info">
                     <div class="feature-desc">
                         <h2>Our <strong>Specifications</strong> management services.</h2>
@@ -311,275 +285,190 @@
                             behaviour explained law remainder.
                         </p>
                         <a href="#" class="btn btn-dark border btn-md" data-animation="animated slideInUp">View All Services</a>
-                
                     </div>
                 </div>
+
                 <div class="col-md-8 carousel">
                     <div class="services-items services-carousel owl-carousel owl-theme">
-                        <!-- Single Item -->
+
                         <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/structure.webp" alt="Thumb">
-                            </div>
+                            <div class="thumb"><img src="assets/img/services/structure.webp" alt="Thumb"></div>
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">STRUCTURE</a></h4>
-                                        <p>
-                                            RCC framed structure as per structural design. External walls 9” and Internal walls 4 1/2” thick (Kollur Bricks).
-                                        </p>
+                                        <p>RCC framed structure as per structural design. External walls 9” and Internal walls 4 1/2” thick (Kollur Bricks).</p>
                                     </div>
-                                   
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
+
                         <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/plastering.webp" alt="Thumb">
-                            </div>
+                            <div class="thumb"><img src="assets/img/services/plastering.webp" alt="Thumb"></div>
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">PLASTERING</a></h4>
-                                        <p>
-                                            All external & internal walls with sponge finish plastering.
-                                        </p>
+                                        <p>All external & internal walls with sponge finish plastering.</p>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
+
                         <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/flooring.webp" alt="Thumb">
-                            </div>
+                            <div class="thumb"><img src="assets/img/services/flooring.webp" alt="Thumb"></div>
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">FLOORING</a></h4>
-                                        <p>
-                                            Inside flooring with Vitrified tiles and outside with parking tiles.
-                                        </p>
+                                        <p>Inside flooring with Vitrified tiles and outside with parking tiles.</p>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
+
                         <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/doors.webp" alt="Thumb">
-                            </div>
+                            <div class="thumb"><img src="assets/img/services/doors.webp" alt="Thumb"></div>
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">DOORS</a></h4>
-                                        <p>
-                                            Main door frame & shutter with teakwood with polish and other doors are with teakwood frame with flush doors.
-                                        </p>
+                                        <p>Main door frame & shutter with teakwood with polish and other doors are with teakwood frame with flush doors.</p>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
+
                         <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/windows.webp" alt="Thumb">
-                            </div>
+                            <div class="thumb"><img src="assets/img/services/windows.webp" alt="Thumb"></div>
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">WINDOWS</a></h4>
-                                        <p>
-                                            All window frames with teakwood and shutters with pinhead glass.
-                                        </p>
+                                        <p>All window frames with teakwood and shutters with pinhead glass.</p>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
+
                         <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/plumbing.webp" alt="Thumb">
-                            </div>
+                            <div class="thumb"><img src="assets/img/services/plumbing.webp" alt="Thumb"></div>
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">PLUMBING</a></h4>
-                                        <p>
-                                            All toilets will be provided with Indian or European style water closet. Tiles dadoing up to 7 feet height. Good quality fittings will be provided.
-                                        </p>
+                                        <p>All toilets will be provided with Indian or European style water closet. Tiles dadoing up to 7 feet height. Good quality fittings will be provided.</p>
                                     </div>
-                                   
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
+
                         <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/electrical.webp" alt="Thumb">
-                            </div>
+                            <div class="thumb"><img src="assets/img/services/electrical.webp" alt="Thumb"></div>
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">ELECTRICAL</a></h4>
-                                        <p>
-                                            Concealed copper wiring with adequate number of points. Telephone & TV points in hall & M.bed room.
-                                        </p>
+                                        <p>Concealed copper wiring with adequate number of points. Telephone & TV points in hall & M.bed room.</p>
                                     </div>
-                                   
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
+
                         <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/fixtures.webp" alt="Thumb">
-                            </div>
+                            <div class="thumb"><img src="assets/img/services/fixtures.webp" alt="Thumb"></div>
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">FIXTURES</a></h4>
-                                        <p>
-                                            Fans and Tube lights will be provided along with A.Cs and Geysers in 2 Bedrooms.
-                                        </p>
+                                        <p>Fans and Tube lights will be provided along with A.Cs and Geysers in 2 Bedrooms.</p>
                                     </div>
-                                   
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
+
                         <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/ceiling.webp" alt="Thumb">
-                            </div>
+                            <div class="thumb"><img src="assets/img/services/ceiling.webp" alt="Thumb"></div>
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">CEILING</a></h4>
-                                        <p>
-                                            Total POP false roofing will be provided.
-                                        </p>
+                                        <p>Total POP false roofing will be provided.</p>
                                     </div>
-                                   
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
+
                         <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/kitchen.webp" alt="Thumb">
-                            </div>
+                            <div class="thumb"><img src="assets/img/services/kitchen.webp" alt="Thumb"></div>
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">KITCHEN</a></h4>
-                                        <p>
-                                            Platform and sink with granite stone. Ceramic tile dadoing up to 3 feet height and CHIMNEY.
-                                        </p>
+                                        <p>Platform and sink with granite stone. Ceramic tile dadoing up to 3 feet height and CHIMNEY.</p>
                                     </div>
-                                   
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
+
                         <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/painting.webp" alt="Thumb">
-                            </div>
+                            <div class="thumb"><img src="assets/img/services/painting.webp" alt="Thumb"></div>
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">PAINTING</a></h4>
-                                        <p>
-                                            Smooth finish with Birla wall care and emulsion paints. External Front Elevation with Emulsion paints and rest with cement based paint.
-                                        </p>
+                                        <p>Smooth finish with Birla wall care and emulsion paints. External Front Elevation with Emulsion paints and rest with cement based paint.</p>
                                     </div>
-                                   
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
+
                         <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/cup boards.webp" alt="Thumb">
-                            </div>
+                            <div class="thumb"><img src="assets/img/services/cup boards.webp" alt="Thumb"></div>
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">CUPBOARDS</a></h4>
-                                        <p>
-                                            Wood work with Plywood shutters finished with Sun-glass and teak wood frames with polish. Panelling will be provided in hall.
-                                        </p>
+                                        <p>Wood work with Plywood shutters finished with Sun-glass and teak wood frames with polish. Panelling will be provided in hall.</p>
                                     </div>
-                                   
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Item -->
-                         <!-- Single Item -->
+
                         <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/security.webp" alt="Thumb">
-                            </div>
+                            <div class="thumb"><img src="assets/img/services/security.webp" alt="Thumb"></div>
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">SECURITY</a></h4>
-                                        <p>
-                                            Compound wall provided with iron gate.
-                                        </p>
+                                        <p>Compound wall provided with iron gate.</p>
                                     </div>
-                                   
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Item -->
-                          <!-- Single Item -->
+
                         <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/owners cost.webp" alt="Thumb">
-                            </div>
+                            <div class="thumb"><img src="assets/img/services/owners cost.webp" alt="Thumb"></div>
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">Owner’s Cost</a></h4>
-                                        <p>
-                                            Registration, VAT, Labour, Service and any Govt. taxes.
-                                        </p>
+                                        <p>Registration, VAT, Labour, Service and any Govt. taxes.</p>
                                     </div>
-                                   
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Item -->
+
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
+    <!-- ========================End Services===================== -->
 
-    <!-- End Services Area -->
-   
-
-    <!-- Start Portfolio  projects 
-    ============================================= -->
-    <div id="portfolio" class="portfolio-area carousel-shadow circle-icon text-center default-padding bg-gray heading-less">
+    <!-- ====================Start Portfolio  projects================== -->
+    <div class="portfolio-area carousel-shadow circle-icon text-center default-padding bg-gray heading-less">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -593,32 +482,18 @@
                 </div>
             </div>
         </div>
+
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="portfolio-items magnific-mix-gallery masonary portfolio-carousel owl-carousel owl-theme owl-loaded owl-drag">
-                        <!-- Single Item -->
+                    <div class="portfolio-items magnific-mix-gallery masonary portfolio-carousel owl-carousel owl-theme">
                         
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        
-                        <!-- End Single Item -->
-                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-780px, 0px, 0px); transition: all; width: 1950px;"><div class="owl-item" style="width: 360px; margin-right: 30px;"><div class="pf-item">
+                        <div class="pf-item">
                             <div class="effect-up">
-                                <img src="assets/img/portfolio/1.jpg" alt="Thumb">
+                                <img src="assets/img/800x600.png" alt="Thumb">
                                 <div class="overlay">
-                                    
                                     <div class="link">
-                                        <a href="assets/img/portfolio/1.jpg" class="item popup-link"><i class="fa fa-search"></i></a>
+                                        <a href="assets/img/800x600.png" class="item popup-link"><i class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
                                 </div>           
@@ -630,12 +505,14 @@
                                     <li>Industry</li>
                                 </ul>
                             </div>
-                        </div></div><div class="owl-item" style="width: 360px; margin-right: 30px;"><div class="pf-item">
+                        </div>
+
+                        <div class="pf-item">
                             <div class="effect-up">
-                                <img src="assets/img/portfolio/2.jpg" alt="Thumb">
+                                <img src="assets/img/800x600.png" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="assets/img/portfolio/2.jpg" class="item popup-link"><i class="fa fa-search"></i></a>
+                                        <a href="assets/img/800x600.png" class="item popup-link"><i class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
                                 </div>           
@@ -647,12 +524,14 @@
                                     <li>Gas</li>
                                 </ul>
                             </div>
-                        </div></div><div class="owl-item active" style="width: 360px; margin-right: 30px;"><div class="pf-item">
+                        </div>
+
+                        <div class="pf-item">
                             <div class="effect-up">
-                                <img src="assets/img/portfolio/3.jpg" alt="Thumb">
+                                <img src="assets/img/800x600.png" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="assets/img/portfolio/3.jpg" class="item popup-link"><i class="fa fa-search"></i></a>
+                                        <a href="assets/img/800x600.png" class="item popup-link"><i class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
                                 </div>           
@@ -664,12 +543,14 @@
                                     <li>Energy</li>
                                 </ul>
                             </div>
-                        </div></div><div class="owl-item active" style="width: 360px; margin-right: 30px;"><div class="pf-item">
+                        </div>
+
+                        <div class="pf-item">
                             <div class="effect-up">
-                                <img src="assets/img/portfolio/4.jpg" alt="Thumb">
+                                <img src="assets/img/800x600.png" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="assets/img/portfolio/4.jpg" class="item popup-link"><i class="fa fa-search"></i></a>
+                                        <a href="assets/img/800x600.png" class="item popup-link"><i class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
                                 </div>           
@@ -681,12 +562,14 @@
                                     <li>Petrol</li>
                                 </ul>
                             </div>
-                        </div></div><div class="owl-item active" style="width: 360px; margin-right: 30px;"><div class="pf-item">
+                        </div>
+
+                        <div class="pf-item">
                             <div class="effect-up">
-                                <img src="assets/img/portfolio/5.jpg" alt="Thumb">
+                                <img src="assets/img/800x600.png" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="assets/img/portfolio/5.jpg" class="item popup-link"><i class="fa fa-search"></i></a>
+                                        <a href="assets/img/800x600.png" class="item popup-link"><i class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
                                 </div>           
@@ -698,17 +581,19 @@
                                     <li>Building</li>
                                 </ul>
                             </div>
-                        </div></div></div></div><div class="owl-nav"><div class="owl-prev"><i class="fa fa-angle-left"></i></div><div class="owl-next disabled"><i class="fa fa-angle-right"></i></div></div><div class="owl-dots disabled"></div></div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Portfolio -->
+    <!-- ====================End Portfolio  projects================== -->
 
-    <!-- Start Team
-    ============================================= -->
+    <!-- =====================Start Work Process======================== -->
     <div class="work-process-area default-padding">
         <div class="container">
+
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="site-heading text-center">
@@ -720,9 +605,10 @@
                     </div>
                 </div>
             </div>
+
             <div class="row">
                 <div class="works-process-items">
-                    <!-- Single Item -->
+
                     <div class="col-md-4">
                         <div class="item">
                             <div class="icon">
@@ -742,9 +628,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
 
-                    <!-- Single Item -->
                     <div class="col-md-4">
                         <div class="item">
                             <div class="icon">
@@ -764,9 +648,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
 
-                    <!-- Single Item -->
                     <div class="col-md-4">
                         <div class="item">
                             <div class="icon">
@@ -786,17 +668,20 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
+
                 </div>
             </div>
+
         </div>
     </div>
-    <!-- End Team -->
+    <!-- =====================End Work Process======================== -->
 
+    <!-- =====================Start Achivement======================== -->
     <div class="achivement-area bg-fixed shadow dark text-light" style="background-image: url(assets/img/banner/5.jpg);">
         <div class="container">
             <div class="row">
                 <div class="achivement-items text-center">
+
                     <div class="col-md-3 col-sm-6 item">
                         <div class="fun-fact">
                             <i class="flaticon-support"></i>
@@ -804,6 +689,7 @@
                             <span class="medium">Satisfied customers</span>
                         </div>
                     </div>
+
                     <div class="col-md-3 col-sm-6 item">
                         <div class="fun-fact">
                             <i class="flaticon-agent"></i>
@@ -811,6 +697,7 @@
                             <span class="medium">Professional agents</span>
                         </div>
                     </div>
+
                     <div class="col-md-3 col-sm-6 item">
                         <div class="fun-fact">
                             <i class="flaticon-customer-service"></i>
@@ -818,6 +705,7 @@
                             <span class="medium">Hours support</span>
                         </div>
                     </div>
+
                     <div class="col-md-3 col-sm-6 item">
                         <div class="fun-fact">
                             <i class="flaticon-briefing"></i>
@@ -825,15 +713,17 @@
                             <span class="medium">Project Finished</span>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
+    <!-- =====================End Achivement======================== -->
 
-    <!-- Start Blog
-    ============================================= -->
+    <!-- =====================Start Blog======================== -->
     <div class="blog-area default-padding bg-gray bottom-less">
         <div class="container">
+
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="site-heading text-center">
@@ -845,9 +735,10 @@
                     </div>
                 </div>
             </div>
+
             <div class="row">
                 <div class="blog-items">
-                    <!-- Single Item -->
+
                     <div class="col-md-4">
                         <div class="single-item">
                             <div class="thumb">
@@ -875,8 +766,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Single Item -->
-                    <!-- Single Item -->
+
                     <div class="col-md-4">
                         <div class="single-item">
                             <div class="thumb">
@@ -904,8 +794,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Single Item -->
-                    <!-- Single Item -->
+
                     <div class="col-md-4">
                         <div class="single-item">
                             <div class="thumb">
@@ -933,20 +822,21 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Single Item -->
+
                 </div>
             </div>
+
         </div>
     </div>
-    <!-- End Blog -->
+    <!-- =====================End Blog======================== -->
 
-    <!-- Start Contact
-    ============================================= -->
+    <!-- ======================Start Contact======================= -->
     <div class="contact-area item-flex default-padding">
         <div class="container">
             <div class="row">
+
                 <div class="col-md-6 thumb bg-cover" style="background-image: url(assets/img/2440x1578.png);"></div>
-                <!-- Start Contact Form -->
+
                 <div class="col-md-6 contact-items">
                     <div class="heading">
                         <h2>Get Free Consultation</h2>
@@ -1015,13 +905,16 @@
                         </li>
                     </ul>
                 </div>
-                <!-- End Start Contact Form -->
+
             </div>
         </div>
     </div>
-    <!-- End Contact Area -->
-    <div class="testimonials-area bg-gray default-padding shadow dark bg-fixed" style="background-image: url(assets/img/banner/2.jpg);">
+    <!-- ======================End Contact======================= -->
+
+    <!-- ======================Start Testimonials======================= -->
+    <div class="testimonials-area bg-gray default-padding shadow dark bg-fixed" style="background-image: url(assets/img/banners/banner2.webp);">
         <div class="container">
+
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="site-heading less-info text-center">
@@ -1030,27 +923,19 @@
                     </div>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-md-12">
-                    <div class="testimonial-items testimonial-carousel owl-carousel owl-theme owl-loaded owl-drag">
-                        <!-- Single Item -->
-                        
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        
-                        <!-- End Single Item -->
-                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-585px, 0px, 0px); transition: all; width: 1755px;"><div class="owl-item" style="width: 555px; margin-right: 30px;"><div class="item">
+                    <div class="testimonial-items testimonial-carousel owl-carousel owl-theme">
+
+                        <div class="item">
                             <div class="thumb">
-                                <img src="assets/img/team/6.jpg" alt="Thumb">
+                                <img src="assets/img/800x800.png" alt="Thumb">
                             </div>
                             <div class="info">
                                 <p>
                                     Awesome so many in hung easy find well up. So of exquisite my an explained remainder. Dashwood denoting securing be on perceive my laughing so.
                                 </p>
-                                <span>Project <a href="#">link</a></span>
                                 <h4>Ahel Natasha</h4>
                                 <div class="rating">
                                     <i class="fas fa-star"></i>
@@ -1060,15 +945,16 @@
                                     <i class="fas fa-star-half-alt"></i>
                                 </div>
                             </div>
-                        </div></div><div class="owl-item active" style="width: 555px; margin-right: 30px;"><div class="item">
+                        </div>
+
+                        <div class="item">
                             <div class="thumb">
-                                <img src="assets/img/team/7.jpg" alt="Thumb">
+                                <img src="assets/img/800x800.png" alt="Thumb">
                             </div>
                             <div class="info">
                                 <p>
                                     Limits marked led silent dining her she far. Sir but elegance marriage dwelling likewise position old pleasure men. Dissimilar themselves simplicity. 
                                 </p>
-                                <span>Project <a href="#">link</a></span>
                                 <h4>Jessica Jones</h4>
                                 <div class="rating">
                                     <i class="fas fa-star"></i>
@@ -1078,15 +964,16 @@
                                     <i class="fas fa-star-half-alt"></i>
                                 </div>
                             </div>
-                        </div></div><div class="owl-item active" style="width: 555px; margin-right: 30px;"><div class="item">
+                        </div>
+
+                        <div class="item">
                             <div class="thumb">
-                                <img src="assets/img/team/8.jpg" alt="Thumb">
+                                <img src="assets/img/800x800.png" alt="Thumb">
                             </div>
                             <div class="info">
                                 <p>
                                     Awesome so many in hung easy find well up. So of exquisite my an explained remainder. Dashwood denoting securing be on perceive my laughing so.
                                 </p>
-                                <span>Project <a href="#">link</a></span>
                                 <h4>Mark Henri</h4>
                                 <div class="rating">
                                     <i class="fas fa-star"></i>
@@ -1096,21 +983,23 @@
                                     <i class="fas fa-star-half-alt"></i>
                                 </div>
                             </div>
-                        </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev"><i class="fa fa-angle-left"></i></div><div class="owl-next"><i class="fa fa-angle-right"></i></div></div><div class="owl-dots"><div class="owl-dot"><span></span></div><div class="owl-dot active"><span></span></div></div></div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- ======================End Testimonials======================= -->
     
 
-    <!-- Start Footer 
-    ============================================= -->
+    <!-- =======================Start Footer====================== -->
     <footer class="bg-light col-4 inc-border">
+
         <div class="container">
             <div class="row">
                 <div class="f-items default-padding">
 
-                    <!-- Single Item -->
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item">
                             <img src="assets/img/mettu_infrastructures_logo.png" alt="Logo">
@@ -1136,8 +1025,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
+
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item link">
                             <h4>Services</h4>
@@ -1163,8 +1051,7 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
+
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item link">
                             <h4>Useful Links</h4>
@@ -1190,8 +1077,7 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
+
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item address">
                             <h4>Opening Hours</h4>
@@ -1219,39 +1105,34 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
+
                 </div>
             </div>
         </div>
-        <!-- Start Footer Bottom -->
+
         <div class="footer-bottom bg-dark text-light">
             <div class="container">
                 <div class="row">
+
                     <div class="col-md-6">
-                        <p>&copy; Copyright 2024. All Rights Reserved by Mettu Infrastructures | <a href="www.dt7.aency" target="_blank" style="color: #ea4723;"><b>DT7.Agency</b></a></p>
+                        <p>&copy; Copyright 2024. All Rights Reserved by Mettu Infrastructures | <a href="https://www.dt7.agency" target="_blank" style="color: #ea4723;"><b>DT7.Agency</b></a></p>
                     </div>
+                    
                     <div class="col-md-6 text-right link">
                         <ul>
-                            <li>
-                                <a href="#">Terms of user</a>
-                            </li>
-                            <li>
-                                <a href="#">License</a>
-                            </li>
-                            <li>
-                                <a href="#">Support</a>
-                            </li>
+                            <li><a href="#">Terms of user</a></li>
+                            <li><a href="#">License</a></li>
+                            <li><a href="#">Support</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Footer Bottom -->
-    </footer>
-    <!-- End Footer -->
 
-    <!-- jQuery Frameworks
-    ============================================= -->
+    </footer>
+    <!-- =======================End Footer====================== -->
+
+    <!-- =======================jQuery Frameworks====================== -->
     <script src="assets/js/jquery-1.12.4.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/equal-height.min.js"></script>
