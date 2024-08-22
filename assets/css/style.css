@@ -1700,6 +1700,7 @@ body,
 .services-area.inc-thumb.flex-less .info .content .top-info {
   margin: 0;
   padding: 30px 30px 20px;
+  min-height: 200px;
 }
 
 .services-area.inc-thumb.flex-less.thumb-less .info .content .top-info {
