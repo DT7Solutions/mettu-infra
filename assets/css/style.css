@@ -5053,3 +5053,17 @@ footer.bg-dark .footer-bottom {
 .services-area .feature-desc{
   margin-top: 65px !important;
 }
+
+@media only screen and (max-width: 767px) {
+  
+  .testimonial-items .item .thumb {
+    padding-right: 20px;
+    /* width: 180px; */
+    display: block;
+}
+.testimonial-items .item .info {
+  padding-right: 20px;
+  /* width: 180px; */
+  display: block;
+}
+}

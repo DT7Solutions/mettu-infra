@@ -2678,8 +2678,28 @@ nav.bootsnav.navbar-full .navbar-toggle:hover span {
     top: 0;
     width: 100%;
   }
+  .free-consl{
+    display: none;
+  }
+  .consultent-form .form-control {
+  
+    width: 90%;
+  } 
 }
 
 body.wrap-nav-sidebar {
   height: auto !important;
 }
+
+
+.banner-logo{
+  width:130px;
+
+}
+
+@media (min-width: 1024px) {
+  .banner-logo{
+    width:200px;
+  }
+}
+
