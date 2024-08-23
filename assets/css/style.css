@@ -5058,12 +5058,23 @@ footer.bg-dark .footer-bottom {
   
   .testimonial-items .item .thumb {
     padding-right: 20px;
-    /* width: 180px; */
     display: block;
 }
 .testimonial-items .item .info {
   padding-right: 20px;
-  /* width: 180px; */
   display: block;
 }
+}
+
+.works-process-items .info{
+  /* float: left;
+  color: red; */
+}
+
+.info .step-points{
+  list-style: circle;
+
+}
+.info .step-points ul li span{
+  float: inline-start;
 }
