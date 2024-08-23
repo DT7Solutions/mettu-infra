@@ -5078,3 +5078,15 @@ footer.bg-dark .footer-bottom {
 .info .step-points ul li span{
   float: inline-start;
 }
+
+.work-process-area-work {
+  background-image: url(../img/banners/background-2.png);
+
+}
+
+.work-process-area-work .item .info h4{
+  color: white;
+}
+.work-process-area-work .item .info ul li{
+  color: white;
+}
