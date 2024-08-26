@@ -23,6 +23,7 @@
     <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
     <link href="assets/css/animate.css" rel="stylesheet" />
     <link href="assets/css/bootsnav.css" rel="stylesheet" />
+    <link href="assets/css/intlTelInput.css"rel="stylesheet" />
     <link href="assets/css/responsive.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
@@ -86,11 +87,19 @@
 
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
-                            <li class="active"><a class="smooth-menu" href="/">Home</a></li>
+                            <li class=""><a class="smooth-menu" href="/">Home</a></li>
                             <li class=""><a class="smooth-menu" href="./about">About</a></li>
                             <li class=""><a class="smooth-menu" href="./gallery">Gallery</a></li>
-                            <li class=""><a class="smooth-menu" href="./works">Works</a></li>
-                            <li class=""><a class="smooth-menu" href="./blogs">blog</a></li>
+                            <li class=""><a class="smooth-menu" href="./services">Services</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle smooth-menu" data-toggle="dropdown">Works</a>
+                                <ul class="dropdown-menu animated" style="display: none; opacity: 1;">
+                                    <li><a href="./works">On Going Project</a></li>
+                                    <li><a href="./works">Complited Projects</a></li>
+                                    <li><a href="./works">Up Comming Projects</a></li>
+                                </ul>
+                            </li>
+                            <li class="active"><a class="smooth-menu" href="./blogs">blog</a></li>
                             <li class=""><a class="smooth-menu" href="./contact">Contact</a></li>
                         </ul>
                     </div>
@@ -118,8 +127,7 @@
     </div>
     <!-- =======================End Breadcrumb====================== -->
 
-
-
+    <!-- =======================Start Blog Details====================== -->
     <div class="blog-area single full-blog right-sidebar full-blog default-padding">
         <div class="container">
             <div class="row">
@@ -127,7 +135,6 @@
                     <div class="blog-content col-md-12">
                         <div class="single-item">
 
-                            <!-- Start Post Thumb -->
                             <div class="thumb">
                                 <img src="assets/img/banners/parlax-1.png" alt="Thumb">
                                 <div class="author">
@@ -140,6 +147,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="info">
                                 <h3>Common so wicket appear to sudden</h3>
                                 <p>
@@ -161,24 +169,21 @@
                                     Surrounded to me occasional pianoforte alteration unaffected impossible ye. For saw half than cold. Pretty merits waited six talked pulled you. Conduct replied off led whether any shortly why arrived adapted. Numerous ladyship so raillery humoured goodness received an. So narrow formal length my highly longer afford oh. Tall neat he make or at dull ye. 
                                 </p>
 
-                                <!-- Start Post Pagination -->
                                 <div class="post-pagi-area">
                                     <a href="#"><i class="fas fa-angle-double-left"></i> Previus Post</a>
                                     <a href="#">Next Post <i class="fas fa-angle-double-right"></i></a>
                                 </div>
-                                <!-- End Post Pagination -->
 
                             </div>
+
                         </div>
                     </div>
                   
                 </div>
             </div>
         </div>
-    </div>
-
-
-
+    </div>  
+    <!-- =======================End Blog Details====================== -->
     
     <!-- =======================Start Footer====================== -->
     <footer class="bg-light col-4 inc-border">
@@ -193,23 +198,6 @@
                             <p>
                                 Excellence decisively impression contrasted remarkably. There spoke happy for you are out. Dear sure ye sold fine sell on.
                             </p>
-                            <div class="bottom">
-                                <h4>Follow Us</h4>
-                                <ul>
-                                    <li>
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-dribbble"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
 
@@ -241,25 +229,25 @@
 
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item link">
-                            <h4>Useful Links</h4>
+                            <h4>Quick Links</h4>
                             <ul>
                                 <li>
-                                    <a href="#">Latest News</a>
+                                    <a href="./about">About</a>
                                 </li>
                                 <li>
-                                    <a href="#">Careers</a>
+                                    <a href="./gallery">Gallery</a>
                                 </li>
                                 <li>
-                                    <a href="#">General Inquiries</a>
+                                    <a href="./services">Services</a>
                                 </li>
                                 <li>
-                                    <a href="#">Case Studies</a>
+                                    <a href="./works">Works</a>
                                 </li>
                                 <li>
-                                    <a href="#">Customers Feedback</a>
+                                    <a href="./blogs">Blogs</a>
                                 </li>
                                 <li>
-                                    <a href="#">Contact Us</a>
+                                    <a href="./contact">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -267,18 +255,15 @@
 
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item address">
-                            <h4>Opening Hours</h4>
-                            <ul>
-                                <li> <span> Mon - Tues :  </span>
-                                  <div class="pull-right"> 6.00 am - 10.00 pm </div>
-                                </li>
-                                <li> <span> Wednes - Thurs :</span>
-                                  <div class="pull-right"> 8.00 am - 6.00 pm </div>
-                                </li>
-                                <li> <span> Sun : </span>
-                                  <div class="pull-right closed"> Closed </div>
-                                </li>
-                            </ul>
+                            <h4>Touch With Us</h4>
+                            <div class="bottom">
+                                <ul>
+                                    <li><a href="https://www.facebook.com"  target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.twitter.com"   target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com"  target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
                             <div class="bottom">
                                 <h4>Subscribe Newsletter</h4>
                                 <form action="#">
@@ -335,6 +320,7 @@
     <script src="assets/js/count-to.js"></script>
     <script src="assets/js/bootsnav.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/intlTelInput.min.js"></script>
 
 </body>
 </html>

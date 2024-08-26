@@ -428,9 +428,9 @@ input {
 }
 
 .btn.btn-light {
-  background: #ffffff none repeat scroll 0 0;
+  background: #54514f none repeat scroll 0 0;
   border: 2px solid #ffffff;
-  color: #232323;
+  color: #ffffff;
 }
 
 .btn.btn-light:hover, 
@@ -5093,4 +5093,22 @@ footer.bg-dark .footer-bottom {
 }
 .work-process-area-work .item .info ul li{
   color: white;
+}
+
+
+/* Onload Page Modal Form */
+#phone-form .form-control {
+  width: 100%;
+  margin: 2.5% 0%;
+}
+.iti {
+  width: 100%;
+}
+.iti--allow-dropdown .iti__flag-container, .iti--separate-dial-code .iti__flag-container {
+  right: auto;
+  left: 0% !important;
+}
+#phoneModal .modal-header .close {
+  margin-top: -4%;
+  margin-right: 2.5%;
 }
