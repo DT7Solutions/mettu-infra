@@ -11,7 +11,9 @@ $(document).ready(function() {
         if (isNaN(String.fromCharCode(e.which))) e.preventDefault();
     });
 
-    $('#phoneModal').modal('show');
+    setTimeout(function(){
+        $('#phoneModal').modal('show');
+    },200);
 
     $("#phone-form").on("submit", function(event) {
         event.preventDefault();

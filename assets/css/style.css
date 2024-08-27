@@ -5112,3 +5112,19 @@ footer.bg-dark .footer-bottom {
   margin-top: -4%;
   margin-right: 2.5%;
 }
+.modal-dialog {
+  max-width: 800px;
+  width: 100%;
+  min-height: 300px;
+  margin: auto;
+  position: relative;
+  margin: 5%;
+}
+.modal-open .modal  {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+}
+
