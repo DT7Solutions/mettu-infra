@@ -5128,3 +5128,67 @@ footer.bg-dark .footer-bottom {
   margin: 0%;
 }
 
+
+.popup-model .modal-dialog {
+  width: 650px;
+  height: auto;
+  padding: 30px;;
+}
+.model-pop-radio-btn{
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.model-pop-radio-btn .radio .yes{
+  display: flex;
+  align-items: center;
+}
+.service-sec .item .content{
+  height:170px !important;
+}
+.service-sec .item .content h4{
+  font-weight: 600;
+}
+
+.complited-projects .pf-item{
+  border: 1px solid rgb(235, 234, 234);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.complited-projects .pf-item .info{
+  background-color: white;
+  padding: 10px 15px;
+
+}
+
+.ongoing-hom-sec .info-content .content{
+  margin-top: 50px;
+}
+.project-exp-sec {
+  background-image: url(../img/projects/ongoing/meenakshi-padmam_02.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+
+  
+}
+
+.cal-to-action{
+  background-image: url(/assets/img/banners/background-2.png );
+  height: 300px;
+
+}
+.cal-to-action .cal-row{
+  display: flex;
+  justify-content: space-between ;
+  margin-top: 10%;
+}
+.cal-to-action .cal-row h3{
+  font-size: 36px;
+  font-weight: 600;
+}
+.cal-to-action .cal-row .cal-to-btn{
+  border: 1px solid white;
+  color: white;
+}

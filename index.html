@@ -23,7 +23,7 @@
     <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
     <link href="assets/css/animate.css" rel="stylesheet" />
     <link href="assets/css/bootsnav.css" rel="stylesheet" />
-    <link href="assets/css/intlTelInput.css"rel="stylesheet" />
+    <link href="assets/css/intlTelInput.css" rel="stylesheet" />
     <link href="assets/css/responsive.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
@@ -49,25 +49,29 @@
     <!-- ==================Preloader Ends================== -->
 
     <!-- ==================Enquary Form Start================== -->
-    <div class="modal fade" id="phoneModal" tabindex="-1" aria-labelledby="phoneModalLabel" aria-hidden="true">
+    <div class="modal fade popup-model" id="phoneModal" tabindex="-1" aria-labelledby="phoneModalLabel"
+        aria-hidden="true" style="opacity:1;">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title" id="phoneModalLabel">Enquiry Now</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"
+                            style="font-size: 25px;">×</span></button>
                 </div>
                 <div class="modal-body">
-                    <form id="phone-form">
+                    <form id="phone-form" style="padding: 15px;">
                         <div class="mb-3">
                             <input type="text" class="form-control" id="full_name" placeholder="Your Name" required />
                         </div>
                         <div class="mb-3">
-                            <input type="tel" id="mobile_code" class="form-control" placeholder="Phone Number" required />
+                            <input type="tel" id="mobile_code" class="form-control" placeholder="Phone Number"
+                                required />
                         </div>
                         <div class="mb-3">
                             <input type="email" class="form-control" id="email" placeholder="Email" required />
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button data-animation="animated slideInUp" type="submit"
+                            class="btn btn-dark effect btn-md">Submit</button>
                     </form>
                 </div>
             </div>
@@ -79,7 +83,7 @@
     <header id="home">
         <div class="wrap-sticky" style="height: 61px;">
             <nav class="navbar navbar-default attr-border navbar-sticky bootsnav on no-full">
-                
+
                 <div class="container">
                     <div class="row">
                         <div class="top-search">
@@ -88,7 +92,7 @@
                                     <input type="text" name="text" class="form-control" placeholder="Search">
                                     <button type="submit">
                                         <i class="fas fa-search"></i>
-                                    </button>  
+                                    </button>
                                 </form>
                             </div>
                         </div>
@@ -99,7 +103,10 @@
 
                     <div class="attr-nav">
                         <ul>
-                            <li class="search pt-4"><a data-animation="animated slideInUp" class="btn btn-light effect btn-md text-light" href="#" style="margin-top: 6px;"><i class="fas fa-arrow-alt-circle-down"></i> Broacher</a></li>
+                            <li class="search pt-4"><a data-animation="animated slideInUp"
+                                    class="btn btn-light effect btn-md text-light" href="#"
+                                    style="margin-top: 6px; border-radius: 200px; font-size: 13px; padding: 0px 15px 0px 12px;">&nbsp;
+                                    &nbsp;<i class="fas fa-arrow-alt-circle-down"></i> Broacher &nbsp; &nbsp;</a></li>
                         </ul>
                     </div>
 
@@ -108,7 +115,7 @@
                             <i class="fa fa-bars"></i>
                         </button>
                         <a class="navbar-brand" href="index.html">
-                            <img src="assets/img/mettu_infrastructures_logo.png" class="logo banner-logo" alt="Logo" >
+                            <img src="assets/img/mettu_infrastructures_logo.png" class="logo banner-logo" alt="Logo">
                         </a>
                     </div>
 
@@ -121,14 +128,21 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle smooth-menu" data-toggle="dropdown">Works</a>
                                 <ul class="dropdown-menu animated" style="display: none; opacity: 1;">
-                                    <li><a href="./works">On Going Project</a></li>
-                                    <li><a href="./works">Complited Projects</a></li>
+                                    <li class="dropdown"><a href="./works" class="dropdown-toggle smooth-menu">On Going
+                                            Project</a>
+                                        <ul class="dropdown-menu animated" style="display: none; opacity: 1;">
+                                            <li><a href="./meenakshi-padmam">Meenakshi Padmam</a></li>
+                                            <li><a href="./mettu-anjireddy-park">Mettu Anjireddy Park</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="./complited-projects">Complited Projects</a></li>
                                     <li><a href="./works">Up Comming Projects</a></li>
                                 </ul>
                             </li>
                             <li class=""><a class="smooth-menu" href="./blogs">blog</a></li>
                             <li class=""><a class="smooth-menu" href="./contact">Contact</a></li>
-                           
+
+
                         </ul>
                     </div>
 
@@ -144,18 +158,23 @@
 
             <div class="carousel-inner transparent-nav carousel-zoom main-banner">
                 <div class="item active">
-                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/banners/banner1.webp);"></div>
+                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/banners/banner1.webp);">
+                    </div>
                     <div class="box-table">
                         <div class="box-cell">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="content">
-                                            <h1 data-animation="animated slideInLeft ">Build <span>innovative</span> industrial solutions</h1>
+                                            <h1 data-animation="animated slideInLeft ">Build <span>innovative</span>
+                                                industrial solutions</h1>
                                             <p data-animation="animated slideInUp text-light">
-                                                Stronger unpacked felicity to of mistaken. Fanny at wrong table ye in. Be on easily cannot innate in lasted months on. Differed and and felicity steepest mrs age outweigh.
+                                                Stronger unpacked felicity to of mistaken. Fanny at wrong table ye in.
+                                                Be on easily cannot innate in lasted months on. Differed and and
+                                                felicity steepest mrs age outweigh.
                                             </p>
-                                            <a data-animation="animated slideInUp" class="btn btn-dark effect btn-md" href="#">Our Services</a>
+                                            <a data-animation="animated slideInUp" class="btn btn-dark effect btn-md"
+                                                href="#">Our Services</a>
                                         </div>
                                     </div>
                                 </div>
@@ -164,18 +183,23 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/banners/banner2.webp);"></div>
+                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/banners/banner2.webp);">
+                    </div>
                     <div class="box-table">
                         <div class="box-cell">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="content">
-                                            <h1 data-animation="animated slideInDown text-light">Expert knowledge in <span>Technical</span> Solutions</h1>
+                                            <h1 data-animation="animated slideInDown text-light">Expert knowledge in
+                                                <span>Technical</span> Solutions</h1>
                                             <p data-animation="animated slideInUp">
-                                                Stronger unpacked felicity to of mistaken. Fanny at wrong table ye in. Be on easily cannot innate in lasted months on. Differed and and felicity steepest mrs age outweigh.
+                                                Stronger unpacked felicity to of mistaken. Fanny at wrong table ye in.
+                                                Be on easily cannot innate in lasted months on. Differed and and
+                                                felicity steepest mrs age outweigh.
                                             </p>
-                                            <a data-animation="animated slideInUp" class="btn btn-dark effect btn-md" href="#">Our Services</a>
+                                            <a data-animation="animated slideInUp" class="btn btn-dark effect btn-md"
+                                                href="#">Our Services</a>
                                         </div>
                                     </div>
                                 </div>
@@ -184,18 +208,23 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/banners/banner3.webp);"></div>
+                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/banners/banner3.webp);">
+                    </div>
                     <div class="box-table">
                         <div class="box-cell">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="content">
-                                            <h1 data-animation="animated slideInRight">Empowering oil Refiling & <span>Processing</span> plants</h1>
+                                            <h1 data-animation="animated slideInRight">Empowering oil Refiling &
+                                                <span>Processing</span> plants</h1>
                                             <p data-animation="animated slideInUp">
-                                                Stronger unpacked felicity to of mistaken. Fanny at wrong table ye in. Be on easily cannot innate in lasted months on. Differed and and felicity steepest mrs age outweigh.
+                                                Stronger unpacked felicity to of mistaken. Fanny at wrong table ye in.
+                                                Be on easily cannot innate in lasted months on. Differed and and
+                                                felicity steepest mrs age outweigh.
                                             </p>
-                                            <a data-animation="animated slideInUp" class="btn btn-dark effect btn-md" href="#">Our Services</a>
+                                            <a data-animation="animated slideInUp" class="btn btn-dark effect btn-md"
+                                                href="#">Our Services</a>
                                         </div>
                                     </div>
                                 </div>
@@ -224,10 +253,11 @@
             <div class="row about-sec-row">
 
                 <div class="col-md-6 thumb mt-5">
-                    <img src="assets/img/about/mettu-infra-about.webp" alt="Thumb">
+                    <img src="assets/img/about/mettu-infra-about.webp" alt="Thumb"
+                        style="box-shadow: 0 0 10px rgba(187, 187, 187, 0.1);">
                 </div>
 
-                <div class="col-md-6 info" >
+                <div class="col-md-6 info">
                     <div class="my-auto">
                         <h4>About us</h4>
 
@@ -255,13 +285,18 @@
                                 <div class="info title">
                                     <h2>About Us</h2>
                                     <p>
-                                        Dependent certainty off discovery him his tolerably offending. Ham for attention remainder sometimes
-                                        additions recommend fat our. Direction has strangers now believing. Respect enjoyed gay far exposed
-                                        parlors towards. Enjoyment use tolerably dependent listening men. No peculiar in handsome together
-                                        unlocked do by. Article concern joy anxious did picture sir her. Although desirous not recurred
+                                        Dependent certainty off discovery him his tolerably offending. Ham for attention
+                                        remainder sometimes
+                                        additions recommend fat our. Direction has strangers now believing. Respect
+                                        enjoyed gay far exposed
+                                        parlors towards. Enjoyment use tolerably dependent listening men. No peculiar in
+                                        handsome together
+                                        unlocked do by. Article concern joy anxious did picture sir her. Although
+                                        desirous not recurred
                                         disposed off shy you numerous securing.
                                     </p>
-                                    <a href="#" class="btn btn-dark border btn-md" data-animation="animated slideInUp">More Details</a>
+                                    <a href="#" class="btn btn-dark border btn-md"
+                                        data-animation="animated slideInUp">More Details</a>
                                 </div>
                             </div>
 
@@ -269,13 +304,18 @@
                                 <div class="info title">
                                     <h2>Vission</h2>
                                     <p>
-                                        Dependent certainty off discovery him his tolerably offending. Ham for attention remainder sometimes
-                                        additions recommend fat our. Direction has strangers now believing. Respect enjoyed gay far exposed
-                                        parlors towards. Enjoyment use tolerably dependent listening men. No peculiar in handsome together
-                                        unlocked do by. Article concern joy anxious did picture sir her. Although desirous not recurred
+                                        Dependent certainty off discovery him his tolerably offending. Ham for attention
+                                        remainder sometimes
+                                        additions recommend fat our. Direction has strangers now believing. Respect
+                                        enjoyed gay far exposed
+                                        parlors towards. Enjoyment use tolerably dependent listening men. No peculiar in
+                                        handsome together
+                                        unlocked do by. Article concern joy anxious did picture sir her. Although
+                                        desirous not recurred
                                         disposed off shy you numerous securing.
                                     </p>
-                                    <a href="#" class="btn btn-dark border btn-md" data-animation="animated slideInUp">More Details</a>
+                                    <a href="#" class="btn btn-dark border btn-md"
+                                        data-animation="animated slideInUp">More Details</a>
                                 </div>
                             </div>
 
@@ -283,13 +323,18 @@
                                 <div class="info title">
                                     <h2>Mission</h2>
                                     <p>
-                                        Dependent certainty off discovery him his tolerably offending. Ham for attention remainder sometimes
-                                        additions recommend fat our. Direction has strangers now believing. Respect enjoyed gay far exposed
-                                        parlors towards. Enjoyment use tolerably dependent listening men. No peculiar in handsome together
-                                        unlocked do by. Article concern joy anxious did picture sir her. Although desirous not recurred
+                                        Dependent certainty off discovery him his tolerably offending. Ham for attention
+                                        remainder sometimes
+                                        additions recommend fat our. Direction has strangers now believing. Respect
+                                        enjoyed gay far exposed
+                                        parlors towards. Enjoyment use tolerably dependent listening men. No peculiar in
+                                        handsome together
+                                        unlocked do by. Article concern joy anxious did picture sir her. Although
+                                        desirous not recurred
                                         disposed off shy you numerous securing.
                                     </p>
-                                    <a href="#" class="btn btn-dark border btn-md" data-animation="animated slideInUp">More Details</a>
+                                    <a href="#" class="btn btn-dark border btn-md"
+                                        data-animation="animated slideInUp">More Details</a>
                                 </div>
                             </div>
 
@@ -312,11 +357,14 @@
                     <div class="feature-desc">
                         <h2>Our <strong>Specifications</strong> management services.</h2>
                         <p>
-                            Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must
-                            snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day
+                            Projecting surrounded literature yet delightful alteration but bed men. Open are from long
+                            why cold. If must
+                            snug by upon sang loud left. As me do preference entreaties compliment motionless ye
+                            literature. Day
                             behaviour explained law remainder.
                         </p>
-                        <a href="#" class="btn btn-dark border btn-md" data-animation="animated slideInUp">View All Services</a>
+                        <a href="#" class="btn btn-dark border btn-md" data-animation="animated slideInUp">View All
+                            Services</a>
                     </div>
                 </div>
 
@@ -329,7 +377,8 @@
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">STRUCTURE</a></h4>
-                                        <p>RCC framed structure as per structural design. External walls 9” and Internal walls 4 1/2” thick (Kollur Bricks).</p>
+                                        <p>RCC framed structure as per structural design. External walls 9” and Internal
+                                            walls 4 1/2” thick (Kollur Bricks).</p>
                                     </div>
                                 </div>
                             </div>
@@ -365,7 +414,8 @@
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">DOORS</a></h4>
-                                        <p>Main door frame & shutter with teakwood with polish and other doors are with teakwood frame with flush doors.</p>
+                                        <p>Main door frame & shutter with teakwood with polish and other doors are with
+                                            teakwood frame with flush doors.</p>
                                     </div>
                                 </div>
                             </div>
@@ -389,7 +439,9 @@
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">PLUMBING</a></h4>
-                                        <p>All toilets will be provided with Indian or European style water closet. Tiles dadoing up to 7 feet height. Good quality fittings will be provided.</p>
+                                        <p>All toilets will be provided with Indian or European style water closet.
+                                            Tiles dadoing up to 7 feet height. Good quality fittings will be provided.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -401,7 +453,8 @@
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">ELECTRICAL</a></h4>
-                                        <p>Concealed copper wiring with adequate number of points. Telephone & TV points in hall & M.bed room.</p>
+                                        <p>Concealed copper wiring with adequate number of points. Telephone & TV points
+                                            in hall & M.bed room.</p>
                                     </div>
                                 </div>
                             </div>
@@ -413,7 +466,8 @@
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">FIXTURES</a></h4>
-                                        <p>Fans and Tube lights will be provided along with A.Cs and Geysers in 2 Bedrooms.</p>
+                                        <p>Fans and Tube lights will be provided along with A.Cs and Geysers in 2
+                                            Bedrooms.</p>
                                     </div>
                                 </div>
                             </div>
@@ -437,7 +491,8 @@
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">KITCHEN</a></h4>
-                                        <p>Platform and sink with granite stone. Ceramic tile dadoing up to 3 feet height and CHIMNEY.</p>
+                                        <p>Platform and sink with granite stone. Ceramic tile dadoing up to 3 feet
+                                            height and CHIMNEY.</p>
                                     </div>
                                 </div>
                             </div>
@@ -449,7 +504,8 @@
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">PAINTING</a></h4>
-                                        <p>Smooth finish with Birla wall care and emulsion paints. External Front Elevation with Emulsion paints and rest with cement based paint.</p>
+                                        <p>Smooth finish with Birla wall care and emulsion paints. External Front
+                                            Elevation with Emulsion paints and rest with cement based paint.</p>
                                     </div>
                                 </div>
                             </div>
@@ -461,7 +517,8 @@
                                 <div class="content">
                                     <div class="top-info">
                                         <h4><a href="#">CUPBOARDS</a></h4>
-                                        <p>Wood work with Plywood shutters finished with Sun-glass and teak wood frames with polish. Panelling will be provided in hall.</p>
+                                        <p>Wood work with Plywood shutters finished with Sun-glass and teak wood frames
+                                            with polish. Panelling will be provided in hall.</p>
                                     </div>
                                 </div>
                             </div>
@@ -499,36 +556,121 @@
     </div>
     <!-- ========================End Services===================== -->
 
-    <!-- ====================Start Portfolio  projects================== -->
+    <!-- ====================Start on going projectsand complited projects  Portfolio  projects================== -->
     <div class="portfolio-area carousel-shadow circle-icon text-center default-padding bg-gray heading-less">
+
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="site-heading text-center">
                         <h4>Recent Work</h4>
-                        <h2>Complete Projects</h2>
+                        <h2>On Going Projects</h2>
                         <p>
-                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old
+                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it
+                            examine express promise no. Past add size game cold girl off how old
                         </p>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="about-area bg-gray inc-video default-padding">
+                <div class="container">
+                    <div class="row">
+                        <!-- Start About -->
+                        <div class="about-content ongoing-hom-sec">
+                            <div class="col-md-6 video-info">
+                                <div class="thumb" style="height: 500px;">
+                                    <img src="./assets/img/projects/ongoing/mettu-meenakshi-padmam.webp" alt="Thumb"
+                                        style="border: 1px solid rgb(238, 238, 238); height: 500px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+                                </div>
+                            </div>
+                            <div class="col-md-6 info-content">
+                                <div class="content">
+                                    <h4>Mettu infrastructures</h4>
+                                    <h1><strong>Meenakshi Padmam</strong></h1>
+                                    <p>
+                                        Seven world think timed while her. Spoil large oh he rooms on since an. Am up
+                                        unwilling eagerness perceived incommode. Perceived end knowledge certainly day
+                                        sweetness why cordially. Ask quick six seven offer see among. Handsome met
+                                        debating sir dwelling age material.
+                                    </p>
+                                    <p>
+                                        Sentiments two occasional affronting solicitude travelling and one contrasted.
+                                        Fortune day out married parties. Happiness remainder joy but earnestly for off.
+                                        Took sold add play may none him few. If as increasing contrasted entreaties be.
+                                    </p>
+                                    <a href="#" class="btn btn-dark border btn-md"
+                                        data-animation="animated slideInUp">More Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End About -->
+                    </div>
+                </div>
+            </div>
+            <div class="about-area bg-gray inc-video default-padding">
+                <div class="container">
+                    <div class="row">
+                        <!-- Start About -->
+                        <div class="about-content ongoing-hom-sec">
+                            <div class="col-md-6 info-content">
+                                <div class="content">
+                                    <h4>Mettu infrastructures</h4>
+                                    <h1><strong>Mettu Anjireddy Park</strong></h1>
+                                    <p>
+                                        Seven world think timed while her. Spoil large oh he rooms on since an. Am up
+                                        unwilling eagerness perceived incommode. Perceived end knowledge certainly day
+                                        sweetness why cordially. Ask quick six seven offer see among. Handsome met
+                                        debating sir dwelling age material.
+                                    </p>
+                                    <p>
+                                        Sentiments two occasional affronting solicitude travelling and one contrasted.
+                                        Fortune day out married parties. Happiness remainder joy but earnestly for off.
+                                        Took sold add play may none him few. If as increasing contrasted entreaties be.
+                                    </p>
+                                    <a href="#" class="btn btn-dark border btn-md"
+                                        data-animation="animated slideInUp">More Details</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 video-info">
+                                <div class="thumb" style="height: 500px;">
+                                    <img src="./assets/img/projects/ongoing/mettu-anjireddy-park.webp" alt="Thumb"
+                                        style="border: 1px solid rgb(238, 238, 238); height: 500px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);overflow: hidden; ">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End About -->
+                    </div>
+                </div>
+            </div>
 
-        <div class="container">
+            <!-- complited project section  -->
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="site-heading text-center">
+                        <h4>Recent Work</h4>
+                        <h2>Complete Projects</h2>
+                        <p>
+                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it
+                            examine express promise no. Past add size game cold girl off how old
+                        </p>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-12">
-                    <div class="portfolio-items magnific-mix-gallery masonary portfolio-carousel owl-carousel owl-theme">
-                        
+                    <div
+                        class="portfolio-items magnific-mix-gallery masonary portfolio-carousel owl-carousel owl-theme">
+
                         <div class="pf-item">
                             <div class="effect-up">
                                 <img src="assets/img/projects/meenakshi-homes.webp" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="assets/img/projects/meenakshi-homes.webp" class="item popup-link"><i class="fa fa-search"></i></a>
+                                        <a href="assets/img/projects/meenakshi-homes.webp" class="item popup-link"><i
+                                                class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
-                                </div>           
+                                </div>
                             </div>
                             <div class="info">
                                 <h3>Meenakshi Homes</h3>
@@ -543,10 +685,11 @@
                                 <img src="assets/img/projects/meenakshi-flora.webp" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="assets/img/projects/meenakshi-flora.webp" class="item popup-link"><i class="fa fa-search"></i></a>
+                                        <a href="assets/img/projects/meenakshi-flora.webp" class="item popup-link"><i
+                                                class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
-                                </div>           
+                                </div>
                             </div>
                             <div class="info">
                                 <h3>Meenakshi Flora</h3>
@@ -555,16 +698,17 @@
                                 </ul>
                             </div>
                         </div>
-                        
+
                         <div class="pf-item">
                             <div class="effect-up">
                                 <img src="assets/img/projects/meenakshi-county.webp" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="assets/img/projects/meenakshi-county.webp" class="item popup-link"><i class="fa fa-search"></i></a>
+                                        <a href="assets/img/projects/meenakshi-county.webp" class="item popup-link"><i
+                                                class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
-                                </div>           
+                                </div>
                             </div>
                             <div class="info">
                                 <h3>Meenakshi Country</h3>
@@ -579,10 +723,11 @@
                                 <img src="assets/img/projects/meenakshi-oaks.webp" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="assets/img/projects/meenakshi-oaks.webp" class="item popup-link"><i class="fa fa-search"></i></a>
+                                        <a href="assets/img/projects/meenakshi-oaks.webp" class="item popup-link"><i
+                                                class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
-                                </div>           
+                                </div>
                             </div>
                             <div class="info">
                                 <h3>Meenakshi Oaks</h3>
@@ -597,10 +742,11 @@
                                 <img src="assets/img/projects/meenakshi-padmam.webp" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="assets/img/projects/meenakshi-padmam.webp" class="item popup-link"><i class="fa fa-search"></i></a>
+                                        <a href="assets/img/projects/meenakshi-padmam.webp" class="item popup-link"><i
+                                                class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
-                                </div>           
+                                </div>
                             </div>
                             <div class="info">
                                 <h3>Meenakshi Padmam</h3>
@@ -615,10 +761,11 @@
                                 <img src="assets/img/projects/meenakshi-palms.webp" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="assets/img/projects/meenakshi-palms.webp" class="item popup-link"><i class="fa fa-search"></i></a>
+                                        <a href="assets/img/projects/meenakshi-palms.webp" class="item popup-link"><i
+                                                class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
-                                </div>           
+                                </div>
                             </div>
                             <div class="info">
                                 <h3>Meenakshi Palms</h3>
@@ -633,10 +780,11 @@
                                 <img src="assets/img/projects/meenakshi-park.webp" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="assets/img/projects/meenakshi-park.webp" class="item popup-link"><i class="fa fa-search"></i></a>
+                                        <a href="assets/img/projects/meenakshi-park.webp" class="item popup-link"><i
+                                                class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
-                                </div>           
+                                </div>
                             </div>
                             <div class="info">
                                 <h3>Meenakshi Park</h3>
@@ -651,10 +799,11 @@
                                 <img src="assets/img/projects/meenakshi-sahishna-homes.webp" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="assets/img/projects/meenakshi-sahishna-homes.webp" class="item popup-link"><i class="fa fa-search"></i></a>
+                                        <a href="assets/img/projects/meenakshi-sahishna-homes.webp"
+                                            class="item popup-link"><i class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
-                                </div>           
+                                </div>
                             </div>
                             <div class="info">
                                 <h3>Meenakshi Sahishna Homes</h3>
@@ -669,10 +818,11 @@
                                 <img src="assets/img/projects/meenakshi-trident.webp" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="assets/img/projects/meenakshi-trident.webp" class="item popup-link"><i class="fa fa-search"></i></a>
+                                        <a href="assets/img/projects/meenakshi-trident.webp" class="item popup-link"><i
+                                                class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
-                                </div>           
+                                </div>
                             </div>
                             <div class="info">
                                 <h3>Meenakshi Trident</h3>
@@ -687,10 +837,11 @@
                                 <img src="assets/img/projects/meenakshi-villas.webp" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="assets/img/projects/meenakshi-villas.webp" class="item popup-link"><i class="fa fa-search"></i></a>
+                                        <a href="assets/img/projects/meenakshi-villas.webp" class="item popup-link"><i
+                                                class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
-                                </div>           
+                                </div>
                             </div>
                             <div class="info">
                                 <h3>Meenakshi Villas</h3>
@@ -717,7 +868,8 @@
                         <h4>Our Work Process</h4>
                         <h2>How does it works</h2>
                         <p>
-                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old 
+                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it
+                            examine express promise no. Past add size game cold girl off how old
                         </p>
                     </div>
                 </div>
@@ -738,14 +890,14 @@
                                 </div>
                                 <div class="info">
                                     <h4>Planning and Design</h4>
-                                   <ul class="step-points">
-                                    <li>Receive project brief and requirements from client</li>
-                                    <li><span>Conduct site analysis and feasibility studies</span></li>
-                                    <li>Develop concept designs and proposals</li>
-                                    <li>Create detailed designs, blueprints, and specifications</li>
-                                    <li>Obtain necessary permits and approvals</li>
-                                    <li>Finalize project timeline, budget, and resources</li>
-                                   </ul>
+                                    <ul class="step-points">
+                                        <li>Receive project brief and requirements from client</li>
+                                        <li><span>Conduct site analysis and feasibility studies</span></li>
+                                        <li>Develop concept designs and proposals</li>
+                                        <li>Create detailed designs, blueprints, and specifications</li>
+                                        <li>Obtain necessary permits and approvals</li>
+                                        <li>Finalize project timeline, budget, and resources</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -769,7 +921,7 @@
                                         <li>Install utilities, electrical, and plumbing systems</li>
                                         <li>Construct buildings, structures, and install finishes</li>
                                         <li>Conduct regular quality control and safety inspections</li>
-                                       </ul>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -794,7 +946,7 @@
                                         <li>Hand over the completed project to the client</li>
                                         <li>Provide training and documentation for operation and maintenance</li>
                                         <li>Evaluate project success and gather feedback for future improvements</li>
-                                       </ul>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -808,7 +960,8 @@
     <!-- =====================End Work Process======================== -->
 
     <!-- =====================Start Achivement======================== -->
-    <div class="achivement-area bg-fixed shadow dark text-light" style="background-image: url(assets/img/banners/parlax-2.png);">
+    <div class="achivement-area bg-fixed shadow dark text-light"
+        style="background-image: url(assets/img/banners/parlax-2.png);">
         <div class="container">
             <div class="row">
                 <div class="achivement-items text-center">
@@ -861,7 +1014,8 @@
                         <h4>Our Blog</h4>
                         <h2>Latest News</h2>
                         <p>
-                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old
+                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it
+                            examine express promise no. Past add size game cold girl off how old
                         </p>
                     </div>
                 </div>
@@ -891,7 +1045,8 @@
                                     <a href="./blog-details">Longer mrs sudden talent become</a>
                                 </h4>
                                 <p>
-                                    On assistance he cultivated considered frequently. Person how having tended direct own day man. Saw sufficient indulgence one own you inquietude sympathize. 
+                                    On assistance he cultivated considered frequently. Person how having tended direct
+                                    own day man. Saw sufficient indulgence one own you inquietude sympathize.
                                 </p>
                                 <a href="./blog-details">Read More <i class="fas fa-arrow-right"></i></a>
                             </div>
@@ -919,7 +1074,8 @@
                                     <a href="./blog-details">Conduct esteems cottage pasture we winding</a>
                                 </h4>
                                 <p>
-                                    On assistance he cultivated considered frequently. Person how having tended direct own day man. Saw sufficient indulgence one own you inquietude sympathize. 
+                                    On assistance he cultivated considered frequently. Person how having tended direct
+                                    own day man. Saw sufficient indulgence one own you inquietude sympathize.
                                 </p>
                                 <a href="./blog-details">Read More <i class="fas fa-arrow-right"></i></a>
                             </div>
@@ -947,7 +1103,8 @@
                                     <a href="./blog-details">Considered discovered projecting</a>
                                 </h4>
                                 <p>
-                                    On assistance he cultivated considered frequently. Person how having tended direct own day man. Saw sufficient indulgence one own you inquietude sympathize. 
+                                    On assistance he cultivated considered frequently. Person how having tended direct
+                                    own day man. Saw sufficient indulgence one own you inquietude sympathize.
                                 </p>
                                 <a href="./blog-details">Read More <i class="fas fa-arrow-right"></i></a>
                             </div>
@@ -966,13 +1123,15 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-sm-12 col-md-6 thumb bg-cover free-consl" style="background-image: url(assets/img/contact-us-bg.webp);"></div>
+                <div class="col-sm-12 col-md-6 thumb bg-cover free-consl"
+                    style="background-image: url(assets/img/contact-us-bg.webp);"></div>
 
                 <div class="col-sm-12 col-md-6 contact-items">
                     <div class="heading">
                         <h2>Get Free Consultation</h2>
                         <p>
-                            Get a free consultation from our experts, Our customer support team help you 24/7, Don’t hesitate.
+                            Get a free consultation from our experts, Our customer support team help you 24/7, Don’t
+                            hesitate.
                         </p>
                     </div>
                     <form action="assets/mail/contact.php" method="POST" class="contact-form consultent-form">
@@ -987,7 +1146,8 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
+                                    <input class="form-control" id="email" name="email" placeholder="Email*"
+                                        type="email">
                                     <span class="alert-error"></span>
                                 </div>
                             </div>
@@ -1001,7 +1161,8 @@
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="form-group comments">
-                                    <textarea class="form-control" id="comments" name="comments" placeholder="Tell Us About Project *"></textarea>
+                                    <textarea class="form-control" id="comments" name="comments"
+                                        placeholder="Tell Us About Project *"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -1043,7 +1204,8 @@
     <!-- ======================End Contact======================= -->
 
     <!-- ======================Start Testimonials======================= -->
-    <div class="testimonials-area bg-gray default-padding shadow dark bg-fixed" style="background-image: url(assets/img/testimonials-bg.webp);">
+    <div class="testimonials-area bg-gray default-padding shadow dark bg-fixed"
+        style="background-image: url(assets/img/testimonials-bg.webp);">
         <div class="container">
 
             <div class="row">
@@ -1065,7 +1227,8 @@
                             </div>
                             <div class="info">
                                 <p>
-                                    Awesome so many in hung easy find well up. So of exquisite my an explained remainder. Dashwood denoting securing be on perceive my laughing so.
+                                    Awesome so many in hung easy find well up. So of exquisite my an explained
+                                    remainder. Dashwood denoting securing be on perceive my laughing so.
                                 </p>
                                 <h4>Ahel Natasha</h4>
                                 <div class="rating">
@@ -1084,7 +1247,8 @@
                             </div>
                             <div class="info">
                                 <p>
-                                    Limits marked led silent dining her she far. Sir but elegance marriage dwelling likewise position old pleasure men. Dissimilar themselves simplicity. 
+                                    Limits marked led silent dining her she far. Sir but elegance marriage dwelling
+                                    likewise position old pleasure men. Dissimilar themselves simplicity.
                                 </p>
                                 <h4>Jessica Jones</h4>
                                 <div class="rating">
@@ -1103,7 +1267,8 @@
                             </div>
                             <div class="info">
                                 <p>
-                                    Awesome so many in hung easy find well up. So of exquisite my an explained remainder. Dashwood denoting securing be on perceive my laughing so.
+                                    Awesome so many in hung easy find well up. So of exquisite my an explained
+                                    remainder. Dashwood denoting securing be on perceive my laughing so.
                                 </p>
                                 <h4>Mark Henri</h4>
                                 <div class="rating">
@@ -1122,7 +1287,7 @@
         </div>
     </div>
     <!-- ======================End Testimonials======================= -->
-    
+
 
     <!-- =======================Start Footer====================== -->
     <footer class="bg-light col-4 inc-border">
@@ -1135,7 +1300,8 @@
                         <div class="f-item">
                             <img src="assets/img/mettu_infrastructures_logo.png" alt="Logo">
                             <p>
-                                Excellence decisively impression contrasted remarkably. There spoke happy for you are out. Dear sure ye sold fine sell on.
+                                Excellence decisively impression contrasted remarkably. There spoke happy for you are
+                                out. Dear sure ye sold fine sell on.
                             </p>
                         </div>
                     </div>
@@ -1197,20 +1363,25 @@
                             <h4>Touch With Us</h4>
                             <div class="bottom">
                                 <ul>
-                                    <li><a href="https://www.facebook.com"  target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.twitter.com"   target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com"  target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                                    <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.facebook.com" target="_blank"><i
+                                                class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.twitter.com" target="_blank"><i
+                                                class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com" target="_blank"><i
+                                                class="fab fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.instagram.com" target="_blank"><i
+                                                class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                             <div class="bottom">
                                 <h4>Subscribe Newsletter</h4>
                                 <form action="#">
                                     <div class="input-group stylish-input-group">
-                                        <input type="email" name="email" class="form-control" placeholder="Enter your e-mail here">
+                                        <input type="email" name="email" class="form-control"
+                                            placeholder="Enter your e-mail here">
                                         <button type="submit">
                                             <i class="fa fa-paper-plane"></i>
-                                        </button>  
+                                        </button>
                                     </div>
                                 </form>
                             </div>
@@ -1226,9 +1397,11 @@
                 <div class="row">
 
                     <div class="col-md-6">
-                        <p>&copy; Copyright 2024. All Rights Reserved by Mettu Infrastructures | <a href="https://www.dt7.agency" target="_blank" style="color: #ea4723;"><b>DT7.Agency</b></a></p>
+                        <p>&copy; Copyright 2024. All Rights Reserved by Mettu Infrastructures | <a
+                                href="https://www.dt7.agency" target="_blank"
+                                style="color: #ea4723;"><b>DT7.Agency</b></a></p>
                     </div>
-                    
+
                     <div class="col-md-6 text-right link">
                         <ul>
                             <li><a href="#">Terms of user</a></li>
@@ -1260,7 +1433,8 @@
     <script src="assets/js/bootsnav.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/intlTelInput.min.js"></script>
-    <script src="assets/js/modal-form.js"></script>
+    <!-- <script src="assets/js/modal-form.js"></script> -->
 
 </body>
+
 </html>
