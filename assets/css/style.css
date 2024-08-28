@@ -5165,7 +5165,7 @@ footer.bg-dark .footer-bottom {
   margin-top: 50px;
 }
 .project-exp-sec {
-  background-image: url(../img/projects/ongoing/meenakshi-padmam_02.jpg);
+  background-image: url(../img/projects/ongoing/meenakshi-padmam.jpg);
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -5191,4 +5191,20 @@ footer.bg-dark .footer-bottom {
 .cal-to-action .cal-row .cal-to-btn{
   border: 1px solid white;
   color: white;
+}
+
+
+/* Active nav bar Styel */
+nav.navbar.bootsnav ul.nav > li.active > a {
+  color: #ff5e14;
+}
+nav.navbar.bootsnav ul.nav > li.active > ul.dropdown-menu > li.active > a {
+  color: #ff5e14;
+}
+nav.navbar.bootsnav ul.nav > li.active > ul.dropdown-menu > li.active > ul.dropdown-menu > li.active > a {
+  color: #ff5e14;
+}
+nav.navbar.bootsnav ul.nav > li > ul.dropdown-menu > li > a:hover,
+nav.navbar.bootsnav ul.nav > li > ul.dropdown-menu > li > ul.dropdown-menu > li > a:hover {
+  color: #ff5e14;
 }

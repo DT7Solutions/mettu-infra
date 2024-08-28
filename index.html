@@ -103,15 +103,17 @@
 
                     <div class="attr-nav">
                         <ul>
-                            <li class="search pt-4"><a data-animation="animated slideInUp"
-                                    class="btn btn-light effect btn-md text-light" href="./services"
-                                    style="margin-top: 6px; border-radius: 200px; font-size: 13px; padding: 0px 15px 0px 12px;">&nbsp;
-                                    &nbsp;<i class="fas fa-arrow-alt-circle-down"></i> Broacher &nbsp; &nbsp;</a></li>
+                            <li class="pt-4">
+                                <a data-animation="animated slideInUp" class="btn btn-light effect btn-md text-light" onclick="pdfbtn()"
+                                    style="margin-top: 6px; border-radius: 200px; font-size: 13px; padding: 0px 15px 0px 12px;">
+                                    &nbsp; &nbsp;<i class="fas fa-arrow-alt-circle-down"></i> Broacher &nbsp; &nbsp;
+                                </a>
+                            </li>
                         </ul>
                     </div>
 
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="./servicesnavbar-menu">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
                         <a class="navbar-brand" href="index.html">
@@ -126,23 +128,21 @@
                             <li class=""><a class="smooth-menu" href="./gallery">Gallery</a></li>
                             <li class=""><a class="smooth-menu" href="./services">Services</a></li>
                             <li class="dropdown">
-                                <a href="./services" class="dropdown-toggle smooth-menu" data-toggle="dropdown">Works</a>
+                                <a href="./works" class="dropdown-toggle smooth-menu" data-toggle="dropdown">Works</a>
                                 <ul class="dropdown-menu animated" style="display: none; opacity: 1;">
-                                    <li class="dropdown"><a href="./works" class="dropdown-toggle smooth-menu">On Going
-                                            Project</a>
+                                    <li class="dropdown">
+                                        <a href="./meenakshi-padmam" class="dropdown-toggle smooth-menu">On Going Project</a>
                                         <ul class="dropdown-menu animated" style="display: none; opacity: 1;">
-                                            <li><a href="./meenakshi-padmam">Meenakshi Padmam</a></li>
-                                            <li><a href="./mettu-anjireddy-park">Mettu Anjireddy Park</a></li>
+                                            <li class=""><a href="./meenakshi-padmam">Meenakshi Padmam</a></li>
+                                            <li class=""><a href="./mettu-anjireddy-park">Mettu Anjireddy Park</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./complited-projects">Complited Projects</a></li>
-                                    <li><a href="./works">Up Comming Projects</a></li>
+                                    <li class=""><a href="./complited-projects">Complited Projects</a></li>
+                                    <!-- <li><a href="./works">Up Comming Projects</a></li> -->
                                 </ul>
                             </li>
-                            <li class=""><a class="smooth-menu" href="./blogs">blog</a></li>
+                            <li class=""><a class="smooth-menu" href="./blogs">blogs</a></li>
                             <li class=""><a class="smooth-menu" href="./contact">Contact</a></li>
-
-
                         </ul>
                     </div>
 
@@ -158,8 +158,7 @@
 
             <div class="carousel-inner transparent-nav carousel-zoom main-banner">
                 <div class="item active">
-                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/banners/banner1.webp);">
-                    </div>
+                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/banners/banner1.webp);"></div>
                     <div class="box-table">
                         <div class="box-cell">
                             <div class="container">
@@ -183,8 +182,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/banners/banner2.webp);">
-                    </div>
+                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/banners/banner2.webp);"></div>
                     <div class="box-table">
                         <div class="box-cell">
                             <div class="container">
@@ -208,8 +206,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/banners/banner3.webp);">
-                    </div>
+                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/banners/banner3.webp);"></div>
                     <div class="box-table">
                         <div class="box-cell">
                             <div class="container">
@@ -263,17 +260,17 @@
 
                         <ul class="nav nav-pills" style="margin-bottom: 13px;">
                             <li class="equal-height active" style="height: 52px;">
-                                <a data-toggle="tab" href="#tab1" aria-expanded="false">
+                                <a data-toggle="tab" href="#about" aria-expanded="false">
                                     <span>ABOUT US</span>
                                 </a>
                             </li>
                             <li class="equal-height" style="height: 52px;">
-                                <a data-toggle="tab" href="#tab2" aria-expanded="false">
+                                <a data-toggle="tab" href="#vission" aria-expanded="false">
                                     <span>VISSION</span>
                                 </a>
                             </li>
                             <li class="equal-height " style="height: 52px;">
-                                <a data-toggle="tab" href="#tab3" aria-expanded="true">
+                                <a data-toggle="tab" href="#mission" aria-expanded="true">
                                     <span>MISSION</span>
                                 </a>
                             </li>
@@ -281,7 +278,7 @@
 
                         <div class="tab-content tab-content-info">
 
-                            <div id="tab1" class="tab-pane fade active in">
+                            <div id="about" class="tab-pane fade active in">
                                 <div class="info title">
                                     <h2>About Us</h2>
                                     <p>
@@ -300,7 +297,7 @@
                                 </div>
                             </div>
 
-                            <div id="tab2" class="tab-pane fade">
+                            <div id="vission" class="tab-pane fade">
                                 <div class="info title">
                                     <h2>Vission</h2>
                                     <p>
@@ -319,7 +316,7 @@
                                 </div>
                             </div>
 
-                            <div id="tab3" class="tab-pane fade ">
+                            <div id="mission" class="tab-pane fade">
                                 <div class="info title">
                                     <h2>Mission</h2>
                                     <p>
@@ -541,7 +538,7 @@
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
-                                        <h4><a href="./services">Owner’s Cost</a></h4>
+                                        <h4><a href="./services">OWNER'S COST</a></h4>
                                         <p>Registration, VAT, Labour, Service and any Govt. taxes.</p>
                                     </div>
                                 </div>
@@ -556,13 +553,58 @@
     </div>
     <!-- ========================End Services===================== -->
 
-    <!-- ====================Start on going projectsand complited projects  Portfolio  projects================== -->
+    <!-- =====================Start Achivement======================== -->
+    <div class="achivement-area bg-fixed shadow dark text-light"
+        style="background-image: url(assets/img/banners/parlax-2.png);">
+        <div class="container">
+            <div class="row">
+                <div class="achivement-items text-center">
+
+                    <div class="col-md-3 col-sm-6 item">
+                        <div class="fun-fact">
+                            <i class="flaticon-support"></i>
+                            <div class="timer" data-to="230" data-speed="5000">230</div>
+                            <span class="medium">Satisfied customers</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 item">
+                        <div class="fun-fact">
+                            <i class="flaticon-agent"></i>
+                            <div class="timer" data-to="89" data-speed="5000">89</div>
+                            <span class="medium">Professional agents</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 item">
+                        <div class="fun-fact">
+                            <i class="flaticon-customer-service"></i>
+                            <div class="timer" data-to="50" data-speed="5000">50</div>
+                            <span class="medium">Hours support</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 item">
+                        <div class="fun-fact">
+                            <i class="flaticon-briefing"></i>
+                            <div class="timer" data-to="2348" data-speed="5000">2348</div>
+                            <span class="medium">Project Finished</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =====================End Achivement======================== -->
+
+    <!-- ====================Start on going projects and complited projects Portfolio================== -->
     <div class="portfolio-area carousel-shadow circle-icon text-center default-padding bg-gray heading-less">
 
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <div class="site-heading text-center">
+                    <div class="site-heading text-center" style="margin-bottom: 2.5%;">
                         <h4>Recent Work</h4>
                         <h2>On Going Projects</h2>
                         <p>
@@ -644,7 +686,7 @@
             </div>
 
             <!-- complited project section  -->
-            <div class="row" style="margin-top: 50px;">
+            <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="site-heading text-center">
                         <h4>Recent Work</h4>
@@ -856,10 +898,110 @@
             </div>
         </div>
     </div>
-    <!-- ====================End Portfolio  projects================== -->
+    <!-- ====================End on going projects and complited projects Portfolio  ================== -->
 
     <!-- =====================Start Work Process======================== -->
-    <div class="work-process-area default-padding">
+    <div class="work-process-area work-process-area-work  default-padding bg-fixed">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="site-heading text-center">
+                        <h4 style="color: white;">Our Work Process</h4>
+                        <h2 style="color: white;">How does it works</h2>
+                        <p style="color: white;">
+                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it
+                            examine express promise no. Past add size game cold girl off how old
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="works-process-items">
+
+                    <div class="col-md-4">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fas fa-drafting-compass"></i>
+                                <!-- <i class="flaticon-concept"></i> -->
+                            </div>
+                            <div class="content">
+                                <div class="vertical-line">
+                                    <span>01</span>
+                                </div>
+                                <div class="info">
+                                    <h4>Planning and Design</h4>
+                                    <ul class="step-points">
+                                        <li>Receive project brief and requirements from client</li>
+                                        <li>Conduct site analysis and feasibility studies</li>
+                                        <li>Develop concept designs and proposals</li>
+                                        <li>Create detailed designs, blueprints, and specifications</li>
+                                        <li>Obtain necessary permits and approvals</li>
+                                        <li>Finalize project timeline, budget, and resources</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="item">
+                            <div class="icon">
+                                <!-- <i class="flaticon-flasks"></i> -->
+                                <i class="fas fa-wrench"></i>
+                            </div>
+                            <div class="content">
+                                <div class="vertical-line">
+                                    <span>02</span>
+                                </div>
+                                <div class="info">
+                                    <h4> Construction and Execution</h4>
+                                    <ul class="step-points">
+                                        <li>Mobilize resources, equipment, and labor to the site</li>
+                                        <li>Conduct site preparation, excavation, and foundation work</li>
+                                        <li>Install utilities, electrical, and plumbing systems</li>
+                                        <li>Construct buildings, structures, and install finishes</li>
+                                        <li>Conduct regular quality control and safety inspections</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="item">
+                            <div class="icon">
+                                <!-- <i class="flaticon-implement"></i> -->
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="content">
+                                <div class="vertical-line">
+                                    <span>03</span>
+                                </div>
+                                <div class="info">
+                                    <h4>Completion and Handover </h4>
+                                    <ul class="step-points">
+                                        <li>Complete final inspections and testing</li>
+                                        <li>Obtain final certifications and approvals</li>
+                                        <li>Address any defects or punch list items</li>
+                                        <li>Hand over the completed project to the client</li>
+                                        <li>Provide training and documentation for operation and maintenance</li>
+                                        <li>Evaluate project success and gather feedback for future improvements</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- =====================End Work Process======================== -->
+
+    <!-- =====================Start Work Process======================== -->
+    <div class="work-process-area default-padding" style="display: none;">
         <div class="container">
 
             <div class="row">
@@ -958,51 +1100,6 @@
         </div>
     </div>
     <!-- =====================End Work Process======================== -->
-
-    <!-- =====================Start Achivement======================== -->
-    <div class="achivement-area bg-fixed shadow dark text-light"
-        style="background-image: url(assets/img/banners/parlax-2.png);">
-        <div class="container">
-            <div class="row">
-                <div class="achivement-items text-center">
-
-                    <div class="col-md-3 col-sm-6 item">
-                        <div class="fun-fact">
-                            <i class="flaticon-support"></i>
-                            <div class="timer" data-to="230" data-speed="5000">230</div>
-                            <span class="medium">Satisfied customers</span>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 item">
-                        <div class="fun-fact">
-                            <i class="flaticon-agent"></i>
-                            <div class="timer" data-to="89" data-speed="5000">89</div>
-                            <span class="medium">Professional agents</span>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 item">
-                        <div class="fun-fact">
-                            <i class="flaticon-customer-service"></i>
-                            <div class="timer" data-to="50" data-speed="5000">50</div>
-                            <span class="medium">Hours support</span>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 item">
-                        <div class="fun-fact">
-                            <i class="flaticon-briefing"></i>
-                            <div class="timer" data-to="2348" data-speed="5000">2348</div>
-                            <span class="medium">Project Finished</span>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- =====================End Achivement======================== -->
 
     <!-- =====================Start Blog======================== -->
     <div class="blog-area default-padding bg-gray bottom-less">
@@ -1288,14 +1385,12 @@
     </div>
     <!-- ======================End Testimonials======================= -->
 
-
     <!-- =======================Start Footer====================== -->
     <footer class="bg-light col-4 inc-border">
 
         <div class="container">
             <div class="row">
                 <div class="f-items default-padding">
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item">
                             <img src="assets/img/mettu_infrastructures_logo.png" alt="Logo">
@@ -1305,90 +1400,56 @@
                             </p>
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item link">
                             <h4>Services</h4>
                             <ul>
-                                <li>
-                                    <a href="./services">CUPBOARDS & WINDOWS & DOORS</a>
-                                </li>
-                                <li>
-                                    <a href="./services">PLUMBING & ELECTRICAL & FIXTURES</a>
-                                </li>
-                                <li>
-                                    <a href="./services">Owner’s Cost</a>
-                                </li>
-                                <li>
-                                    <a href="./services">SECURITY</a>
-                                </li>
-                              
-                                <li>
-                                    <a href="./services">KITCHEN</a>
-                                </li>
-                                <li>
-                                    <a href="./services">CEILING & FLOORING</a>
-                                </li>
+                                <li><a href="./services">CUPBOARDS & WINDOWS & DOORS</a></li>
+                                <li><a href="./services">PLUMBING & ELECTRICAL & FIXTURES</a></li>
+                                <li><a href="./services">OWNER'S COST</a></li>
+                                <li><a href="./services">SECURITY</a></li>
+                                <li><a href="./services">KITCHEN</a></li>
+                                <li><a href="./services">CEILING & FLOORING</a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item link">
                             <h4>Quick Links</h4>
                             <ul>
-                                <li>
-                                    <a href="./about">About</a>
-                                </li>
-                                <li>
-                                    <a href="./gallery">Gallery</a>
-                                </li>
-                                <li>
-                                    <a href="./services">Services</a>
-                                </li>
-                                <li>
-                                    <a href="./works">Works</a>
-                                </li>
-                                <li>
-                                    <a href="./blogs">Blogs</a>
-                                </li>
-                                <li>
-                                    <a href="./contact">Contact Us</a>
-                                </li>
+                                <li><a href="./about">ABOUT</a></li>
+                                <li><a href="./gallery">GALLERY</a></li>
+                                <li><a href="./services">SERVICES</a></li>
+                                <li><a href="./works">WORKS</a></li>
+                                <li><a href="./blogs">BLOGS</a></li>
+                                <li><a href="./contact">CONTACT US</a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item address">
                             <h4>Touch With Us</h4>
                             <div class="bottom">
                                 <ul>
-                                    <li><a href="https://www.facebook.com" target="_blank"><i
-                                                class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.twitter.com" target="_blank"><i
-                                                class="fab fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com" target="_blank"><i
-                                                class="fab fa-linkedin"></i></a></li>
-                                    <li><a href="https://www.instagram.com" target="_blank"><i
-                                                class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                             <div class="bottom">
                                 <h4>Subscribe Newsletter</h4>
-                                <form action="./services">
+                                <form action="#">
                                     <div class="input-group stylish-input-group">
-                                        <input type="email" name="email" class="form-control"
-                                            placeholder="Enter your e-mail here">
+                                        <input type="email" name="email" class="form-control" placeholder="Enter your e-mail here">
                                         <button type="submit">
                                             <i class="fa fa-paper-plane"></i>
-                                        </button>
+                                        </button>  
                                     </div>
                                 </form>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -1396,18 +1457,14 @@
         <div class="footer-bottom bg-dark text-light">
             <div class="container">
                 <div class="row">
-
                     <div class="col-md-6">
-                        <p>&copy; Copyright 2024. All Rights Reserved by Mettu Infrastructures | <a
-                                href="https://www.dt7.agency" target="_blank"
-                                style="color: ./servicesea4723;"><b>DT7.Agency</b></a></p>
-                    </div>
-
+                        <p>&copy; Copyright 2024. All Rights Reserved by Mettu Infrastructures | <a href="https://www.dt7.agency" target="_blank" style="color: #ea4723;"><b>DT7.Agency</b></a></p>
+                    </div> 
                     <div class="col-md-6 text-right link">
                         <ul>
-                            <li><a href="./services">Terms of user</a></li>
-                            <li><a href="./services">License</a></li>
-                            <li><a href="./services">Support</a></li>
+                            <li><a href="#">Terms of user</a></li>
+                            <li><a href="#">License</a></li>
+                            <li><a href="#">Support</a></li>
                         </ul>
                     </div>
                 </div>

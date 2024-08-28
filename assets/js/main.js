@@ -519,3 +519,11 @@
 
     }); // end document ready function
 })(jQuery); // End jQuery
+
+
+
+/*DOWNLOAD E-CATALOGUE BROCHURES-CATALOGUE*/
+function pdfbtn() {
+    var pdfUrl = './mettu-infra-structure-brochure.pdf';
+    window.open(pdfUrl, '_blank');
+}

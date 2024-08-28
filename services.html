@@ -56,7 +56,7 @@
                     <div class="row">
                         <div class="top-search">
                             <div class="input-group">
-                                <form action="#">
+                                <form action="./services">
                                     <input type="text" name="text" class="form-control" placeholder="Search">
                                     <button type="submit">
                                         <i class="fas fa-search"></i>
@@ -71,10 +71,12 @@
 
                     <div class="attr-nav">
                         <ul>
-                            <li class="search pt-4"><a data-animation="animated slideInUp"
-                                    class="btn btn-light effect btn-md text-light" href="#"
-                                    style="margin-top: 6px; border-radius: 200px; font-size: 13px; padding: 0px 15px 0px 12px;">&nbsp;
-                                    &nbsp;<i class="fas fa-arrow-alt-circle-down"></i> Broacher &nbsp; &nbsp;</a></li>
+                            <li class="pt-4">
+                                <a data-animation="animated slideInUp" class="btn btn-light effect btn-md text-light" onclick="pdfbtn()"
+                                    style="margin-top: 6px; border-radius: 200px; font-size: 13px; padding: 0px 15px 0px 12px;">
+                                    &nbsp; &nbsp;<i class="fas fa-arrow-alt-circle-down"></i> Broacher &nbsp; &nbsp;
+                                </a>
+                            </li>
                         </ul>
                     </div>
 
@@ -88,29 +90,27 @@
                     </div>
 
                     <div class="collapse navbar-collapse" id="navbar-menu">
-                        <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
-                            <li class="active"><a class="smooth-menu" href="./">Home</a></li>
+                        <ul class="nav navbar-nav navbar-right" data-in="./services" data-out="./services">
+                            <li class=""><a class="smooth-menu" href="/">Home</a></li>
                             <li class=""><a class="smooth-menu" href="./about">About</a></li>
                             <li class=""><a class="smooth-menu" href="./gallery">Gallery</a></li>
                             <li class="active"><a class="smooth-menu" href="./services">Services</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle smooth-menu" data-toggle="dropdown">Works</a>
+                                <a href="./works" class="dropdown-toggle smooth-menu" data-toggle="dropdown">Works</a>
                                 <ul class="dropdown-menu animated" style="display: none; opacity: 1;">
-                                    <li class="dropdown"><a href="./works" class="dropdown-toggle smooth-menu">On Going
-                                            Project</a>
+                                    <li class="dropdown">
+                                        <a href="./meenakshi-padmam" class="dropdown-toggle smooth-menu">On Going Project</a>
                                         <ul class="dropdown-menu animated" style="display: none; opacity: 1;">
-                                            <li><a href="./meenakshi-padmam">Meenakshi Padmam</a></li>
-                                            <li><a href="./mettu-anjireddy-park">Mettu Anjireddy Park</a></li>
+                                            <li class=""><a href="./meenakshi-padmam">Meenakshi Padmam</a></li>
+                                            <li class=""><a href="./mettu-anjireddy-park">Mettu Anjireddy Park</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./complited-projects">Complited Projects</a></li>
-                                    <li><a href="./works">Up Comming Projects</a></li>
+                                    <li class=""><a href="./complited-projects">Complited Projects</a></li>
+                                    <!-- <li><a href="./works">Up Comming Projects</a></li> -->
                                 </ul>
                             </li>
-                            <li class=""><a class="smooth-menu" href="./blogs">blog</a></li>
+                            <li class=""><a class="smooth-menu" href="./blogs">blogs</a></li>
                             <li class=""><a class="smooth-menu" href="./contact">Contact</a></li>
-
-
                         </ul>
                     </div>
 
@@ -135,6 +135,8 @@
         </div>
     </div>
     <!-- =======================End Breadcrumb====================== -->
+
+    <!-- =======================Start Services Details====================== -->
     <div class="services-area flex-icon bg-gray default-padding bottom-less">
         <div class="container">
             <div class="row">
@@ -150,8 +152,8 @@
             </div>
             <div class="row">
                 <div class="services-items service-sec">
-                    <!-- Single Item -->
-                    <div class="col-md-4 col-sm-6 equal-height" style="height: 461px;">
+                    
+                    <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb"><img src="assets/img/services/structure.webp" alt="Thumb"></div>
                             <div class="info">
@@ -164,9 +166,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="col-md-4 col-sm-6 equal-height" style="height: 461px;">
+                    
+                    <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb"><img src="assets/img/services/plastering.webp" alt="Thumb"></div>
                             <div class="info">
@@ -179,9 +180,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="col-md-4 col-sm-6 equal-height" style="height: 461px;">
+                    
+                    <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb"><img src="assets/img/services/flooring.webp" alt="Thumb"></div>
                             <div class="info">
@@ -194,9 +194,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="col-md-4 col-sm-6 equal-height" style="height: 461px;">
+                    
+                    <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb"><img src="assets/img/services/doors.webp" alt="Thumb"></div>
                             <div class="info">
@@ -209,9 +208,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="col-md-4 col-sm-6 equal-height" style="height: 461px;">
+
+                    <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb"><img src="assets/img/services/windows.webp" alt="Thumb"></div>
                             <div class="info">
@@ -224,10 +222,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                  
-                      <!-- Single Item -->
-                      <div class="col-md-4 col-sm-6 equal-height" style="height: 461px;">
+   
+                    <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb"><img src="assets/img/services/plumbing.webp" alt="Thumb"></div>
                             <div class="info">
@@ -240,9 +236,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                       <!-- Single Item -->
-                    <div class="col-md-4 col-sm-6 equal-height" style="height: 461px;">
+
+                    <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb"><img src="assets/img/services/electrical.webp" alt="Thumb"></div>
                             <div class="info">
@@ -255,9 +250,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                       <!-- Single Item -->
-                    <div class="col-md-4 col-sm-6 equal-height" style="height: 461px;">
+                       
+                    <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb"><img src="assets/img/services/fixtures.webp" alt="Thumb"></div>
                             <div class="info">
@@ -270,9 +264,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                       <!-- Single Item -->
-                    <div class="col-md-4 col-sm-6 equal-height" style="height: 461px;">
+                       
+                    <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb"><img src="assets/img/services/ceiling.webp" alt="Thumb"></div>
                             <div class="info">
@@ -285,9 +278,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                       <!-- Single Item -->
-                    <div class="col-md-4 col-sm-6 equal-height" style="height: 461px;">
+                       
+                    <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb"><img src="assets/img/services/kitchen.webp" alt="Thumb"></div>
                             <div class="info">
@@ -300,9 +292,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                       <!-- Single Item -->
-                    <div class="col-md-4 col-sm-6 equal-height" style="height: 461px;">
+                       
+                    <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb"><img src="assets/img/services/painting.webp" alt="Thumb"></div>
                             <div class="info">
@@ -315,9 +306,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                       <!-- Single Item -->
-                    <div class="col-md-4 col-sm-6 equal-height" style="height: 461px;">
+                       
+                    <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb"><img src="assets/img/services/cup boards.webp" alt="Thumb"></div>
                             <div class="info">
@@ -330,9 +320,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                       <!-- Single Item -->
-                    <div class="col-md-4 col-sm-6 equal-height" style="height: 461px;">
+                       
+                    <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb"><img src="assets/img/services/security.webp" alt="Thumb"></div>
                             <div class="info">
@@ -345,31 +334,26 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                       <!-- Single Item -->
-                    <div class="col-md-4 col-sm-6 equal-height" style="height: 461px;">
+                       
+                    <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
                             <div class="thumb"><img src="assets/img/services/owners cost.webp" alt="Thumb"></div>
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
-                                        <h4><a href="#">Owner’s Cost</a></h4>
+                                        <h4><a href="#">OWNER'S COST</a></h4>
                                         <p>Registration, VAT, Labour, Service and any Govt. taxes.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Item -->
                      
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
+    <!-- =======================End Services Details====================== -->
 
     <!-- =======================Start Footer====================== -->
     <footer class="bg-light col-4 inc-border">
@@ -377,77 +361,49 @@
         <div class="container">
             <div class="row">
                 <div class="f-items default-padding">
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item">
                             <img src="assets/img/mettu_infrastructures_logo.png" alt="Logo">
                             <p>
-                                Excellence decisively impression contrasted remarkably. There spoke happy for you are out. Dear sure ye sold fine sell on.
+                                Excellence decisively impression contrasted remarkably. There spoke happy for you are
+                                out. Dear sure ye sold fine sell on.
                             </p>
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item link">
                             <h4>Services</h4>
                             <ul>
-                                <li>
-                                    <a href="./services">CUPBOARDS & WINDOWS & DOORS</a>
-                                </li>
-                                <li>
-                                    <a href="./services">PLUMBING & ELECTRICAL & FIXTURES</a>
-                                </li>
-                                <li>
-                                    <a href="./services">Owner’s Cost</a>
-                                </li>
-                                <li>
-                                    <a href="./services">SECURITY</a>
-                                </li>
-                              
-                                <li>
-                                    <a href="./services">KITCHEN</a>
-                                </li>
-                                <li>
-                                    <a href="./services">CEILING & FLOORING</a>
-                                </li>
+                                <li><a href="./services">CUPBOARDS & WINDOWS & DOORS</a></li>
+                                <li><a href="./services">PLUMBING & ELECTRICAL & FIXTURES</a></li>
+                                <li><a href="./services">OWNER'S COST</a></li>
+                                <li><a href="./services">SECURITY</a></li>
+                                <li><a href="./services">KITCHEN</a></li>
+                                <li><a href="./services">CEILING & FLOORING</a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item link">
                             <h4>Quick Links</h4>
                             <ul>
-                                <li>
-                                    <a href="./about">About</a>
-                                </li>
-                                <li>
-                                    <a href="./gallery">Gallery</a>
-                                </li>
-                                <li>
-                                    <a href="./services">Services</a>
-                                </li>
-                                <li>
-                                    <a href="./works">Works</a>
-                                </li>
-                                <li>
-                                    <a href="./blogs">Blogs</a>
-                                </li>
-                                <li>
-                                    <a href="./contact">Contact Us</a>
-                                </li>
+                                <li><a href="./about">ABOUT</a></li>
+                                <li><a href="./gallery">GALLERY</a></li>
+                                <li><a href="./services">SERVICES</a></li>
+                                <li><a href="./works">WORKS</a></li>
+                                <li><a href="./blogs">BLOGS</a></li>
+                                <li><a href="./contact">CONTACT US</a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item address">
                             <h4>Touch With Us</h4>
                             <div class="bottom">
                                 <ul>
-                                    <li><a href="https://www.facebook.com"  target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.twitter.com"   target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com"  target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                                     <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
@@ -464,7 +420,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -472,11 +427,9 @@
         <div class="footer-bottom bg-dark text-light">
             <div class="container">
                 <div class="row">
-
                     <div class="col-md-6">
                         <p>&copy; Copyright 2024. All Rights Reserved by Mettu Infrastructures | <a href="https://www.dt7.agency" target="_blank" style="color: #ea4723;"><b>DT7.Agency</b></a></p>
-                    </div>
-                    
+                    </div> 
                     <div class="col-md-6 text-right link">
                         <ul>
                             <li><a href="#">Terms of user</a></li>

@@ -56,7 +56,7 @@
                     <div class="row">
                         <div class="top-search">
                             <div class="input-group">
-                                <form action="#">
+                                <form action="./services">
                                     <input type="text" name="text" class="form-control" placeholder="Search">
                                     <button type="submit">
                                         <i class="fas fa-search"></i>
@@ -71,10 +71,12 @@
 
                     <div class="attr-nav">
                         <ul>
-                            <li class="search pt-4"><a data-animation="animated slideInUp"
-                                    class="btn btn-light effect btn-md text-light" href="#"
-                                    style="margin-top: 6px; border-radius: 200px; font-size: 13px; padding: 0px 15px 0px 12px;">&nbsp;
-                                    &nbsp;<i class="fas fa-arrow-alt-circle-down"></i> Broacher &nbsp; &nbsp;</a></li>
+                            <li class="pt-4">
+                                <a data-animation="animated slideInUp" class="btn btn-light effect btn-md text-light" onclick="pdfbtn()"
+                                    style="margin-top: 6px; border-radius: 200px; font-size: 13px; padding: 0px 15px 0px 12px;">
+                                    &nbsp; &nbsp;<i class="fas fa-arrow-alt-circle-down"></i> Broacher &nbsp; &nbsp;
+                                </a>
+                            </li>
                         </ul>
                     </div>
 
@@ -88,29 +90,27 @@
                     </div>
 
                     <div class="collapse navbar-collapse" id="navbar-menu">
-                        <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
-                            <li class="active"><a class="smooth-menu" href="./">Home</a></li>
-                            <li class=""><a class="smooth-menu" href="./about">About</a></li>
+                        <ul class="nav navbar-nav navbar-right" data-in="./services" data-out="./services">
+                            <li class=""><a class="smooth-menu" href="/">Home</a></li>
+                            <li class="active"><a class="smooth-menu" href="./about">About</a></li>
                             <li class=""><a class="smooth-menu" href="./gallery">Gallery</a></li>
                             <li class=""><a class="smooth-menu" href="./services">Services</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle smooth-menu" data-toggle="dropdown">Works</a>
+                                <a href="./works" class="dropdown-toggle smooth-menu" data-toggle="dropdown">Works</a>
                                 <ul class="dropdown-menu animated" style="display: none; opacity: 1;">
-                                    <li class="dropdown"><a href="./works" class="dropdown-toggle smooth-menu">On Going
-                                            Project</a>
+                                    <li class="dropdown">
+                                        <a href="./meenakshi-padmam" class="dropdown-toggle smooth-menu">On Going Project</a>
                                         <ul class="dropdown-menu animated" style="display: none; opacity: 1;">
-                                            <li><a href="./meenakshi-padmam">Meenakshi Padmam</a></li>
-                                            <li><a href="./mettu-anjireddy-park">Mettu Anjireddy Park</a></li>
+                                            <li class=""><a href="./meenakshi-padmam">Meenakshi Padmam</a></li>
+                                            <li class=""><a href="./mettu-anjireddy-park">Mettu Anjireddy Park</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./complited-projects">Complited Projects</a></li>
-                                    <li><a href="./works">Up Comming Projects</a></li>
+                                    <li class=""><a href="./complited-projects">Complited Projects</a></li>
+                                    <!-- <li><a href="./works">Up Comming Projects</a></li> -->
                                 </ul>
                             </li>
-                            <li class=""><a class="smooth-menu" href="./blogs">blog</a></li>
+                            <li class=""><a class="smooth-menu" href="./blogs">blogs</a></li>
                             <li class=""><a class="smooth-menu" href="./contact">Contact</a></li>
-
-
                         </ul>
                     </div>
 
@@ -128,12 +128,13 @@
                     <h1>About Us</h1>
                     <ul class="breadcrumb">
                         <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                        <li><a href="#">about us</a></li>
+                        <li><a href="active">about us</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
+    <!-- =======================End Breadcrumb====================== -->
 
     <!-- ======================Start Our About======================= -->
     <div class="about-area default-padding inc-more">
@@ -141,26 +142,27 @@
             <div class="row about-sec-row">
 
                 <div class="col-md-6 thumb mt-5">
-                    <img src="assets/img/about/mettu-infra-about.webp" alt="Thumb">
+                    <img src="assets/img/about/mettu-infra-about.webp" alt="Thumb"
+                        style="box-shadow: 0 0 10px rgba(187, 187, 187, 0.1);">
                 </div>
 
-                <div class="col-md-6 info" >
+                <div class="col-md-6 info">
                     <div class="my-auto">
                         <h4>About us</h4>
 
                         <ul class="nav nav-pills" style="margin-bottom: 13px;">
                             <li class="equal-height active" style="height: 52px;">
-                                <a data-toggle="tab" href="#tab1" aria-expanded="false">
+                                <a data-toggle="tab" href="#about" aria-expanded="false">
                                     <span>ABOUT US</span>
                                 </a>
                             </li>
                             <li class="equal-height" style="height: 52px;">
-                                <a data-toggle="tab" href="#tab2" aria-expanded="false">
+                                <a data-toggle="tab" href="#vission" aria-expanded="false">
                                     <span>VISSION</span>
                                 </a>
                             </li>
                             <li class="equal-height " style="height: 52px;">
-                                <a data-toggle="tab" href="#tab3" aria-expanded="true">
+                                <a data-toggle="tab" href="#mission" aria-expanded="true">
                                     <span>MISSION</span>
                                 </a>
                             </li>
@@ -168,45 +170,60 @@
 
                         <div class="tab-content tab-content-info">
 
-                            <div id="tab1" class="tab-pane fade active in">
+                            <div id="about" class="tab-pane fade active in">
                                 <div class="info title">
                                     <h2>About Us</h2>
                                     <p>
-                                        Dependent certainty off discovery him his tolerably offending. Ham for attention remainder sometimes
-                                        additions recommend fat our. Direction has strangers now believing. Respect enjoyed gay far exposed
-                                        parlors towards. Enjoyment use tolerably dependent listening men. No peculiar in handsome together
-                                        unlocked do by. Article concern joy anxious did picture sir her. Although desirous not recurred
+                                        Dependent certainty off discovery him his tolerably offending. Ham for attention
+                                        remainder sometimes
+                                        additions recommend fat our. Direction has strangers now believing. Respect
+                                        enjoyed gay far exposed
+                                        parlors towards. Enjoyment use tolerably dependent listening men. No peculiar in
+                                        handsome together
+                                        unlocked do by. Article concern joy anxious did picture sir her. Although
+                                        desirous not recurred
                                         disposed off shy you numerous securing.
                                     </p>
-                                    <a href="#" class="btn btn-dark border btn-md" data-animation="animated slideInUp">More Details</a>
+                                    <a href="./services" class="btn btn-dark border btn-md"
+                                        data-animation="animated slideInUp">More Details</a>
                                 </div>
                             </div>
 
-                            <div id="tab2" class="tab-pane fade">
+                            <div id="vission" class="tab-pane fade">
                                 <div class="info title">
                                     <h2>Vission</h2>
                                     <p>
-                                        Dependent certainty off discovery him his tolerably offending. Ham for attention remainder sometimes
-                                        additions recommend fat our. Direction has strangers now believing. Respect enjoyed gay far exposed
-                                        parlors towards. Enjoyment use tolerably dependent listening men. No peculiar in handsome together
-                                        unlocked do by. Article concern joy anxious did picture sir her. Although desirous not recurred
+                                        Dependent certainty off discovery him his tolerably offending. Ham for attention
+                                        remainder sometimes
+                                        additions recommend fat our. Direction has strangers now believing. Respect
+                                        enjoyed gay far exposed
+                                        parlors towards. Enjoyment use tolerably dependent listening men. No peculiar in
+                                        handsome together
+                                        unlocked do by. Article concern joy anxious did picture sir her. Although
+                                        desirous not recurred
                                         disposed off shy you numerous securing.
                                     </p>
-                                    <a href="#" class="btn btn-dark border btn-md" data-animation="animated slideInUp">More Details</a>
+                                    <a href="./services" class="btn btn-dark border btn-md"
+                                        data-animation="animated slideInUp">More Details</a>
                                 </div>
                             </div>
 
-                            <div id="tab3" class="tab-pane fade ">
+                            <div id="mission" class="tab-pane fade">
                                 <div class="info title">
                                     <h2>Mission</h2>
                                     <p>
-                                        Dependent certainty off discovery him his tolerably offending. Ham for attention remainder sometimes
-                                        additions recommend fat our. Direction has strangers now believing. Respect enjoyed gay far exposed
-                                        parlors towards. Enjoyment use tolerably dependent listening men. No peculiar in handsome together
-                                        unlocked do by. Article concern joy anxious did picture sir her. Although desirous not recurred
+                                        Dependent certainty off discovery him his tolerably offending. Ham for attention
+                                        remainder sometimes
+                                        additions recommend fat our. Direction has strangers now believing. Respect
+                                        enjoyed gay far exposed
+                                        parlors towards. Enjoyment use tolerably dependent listening men. No peculiar in
+                                        handsome together
+                                        unlocked do by. Article concern joy anxious did picture sir her. Although
+                                        desirous not recurred
                                         disposed off shy you numerous securing.
                                     </p>
-                                    <a href="#" class="btn btn-dark border btn-md" data-animation="animated slideInUp">More Details</a>
+                                    <a href="./services" class="btn btn-dark border btn-md"
+                                        data-animation="animated slideInUp">More Details</a>
                                 </div>
                             </div>
 
@@ -227,7 +244,7 @@
                 <div class="content-box">
                     <div class="col-md-6 thumb bg-cover" style="background-image: url(assets/img/about/choose-us-new.webp);"></div>
                     <div class="col-md-6 info">
-                        <h4>Why Choose Us</h4>
+                        <h4 style="color: white;">Why Choose Us</h4>
                         <h2>The Best Solution for all Industrial &amp; Factory Businesses</h2>
                         <p>
                             Dependent certainty off discovery him his tolerably offending. Ham for attention remainder sometimes additions recommend fat our. Direction has strangers now believing. Respect enjoyed gay far exposed parlors towards. Enjoyment use tolerably dependent listening men. No peculiar in handsome together unlocked do by. Article concern joy anxious did picture sir her. Although desirous not recurred disposed off shy you numerous securing. 
@@ -299,7 +316,7 @@
                                     </p>
                                 </div>
                                 <div class="mail">
-                                    <h5><i class="fas fa-envelope"></i> jessica@admin.com</h5>
+                                    <h5><i class="fas fa-envelope"></i> info@mettuinfrastructure.com</h5>
                                 </div>
                             </div>
                         </div>
@@ -327,7 +344,7 @@
                                     </p>
                                 </div>
                                 <div class="mail">
-                                    <h5><i class="fas fa-envelope"></i> mark@admin.com</h5>
+                                    <h5><i class="fas fa-envelope"></i> info@mettuinfrastructure.com</h5>
                                 </div>
                             </div>
                         </div>
@@ -559,7 +576,7 @@
                             <div class="info">
                                 <div class="content">
                                     <div class="top-info">
-                                        <h4><a href="#">Owner’s Cost</a></h4>
+                                        <h4><a href="#">OWNER'S COST</a></h4>
                                         <p>Registration, VAT, Labour, Service and any Govt. taxes.</p>
                                     </div>
                                 </div>
@@ -580,77 +597,49 @@
         <div class="container">
             <div class="row">
                 <div class="f-items default-padding">
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item">
                             <img src="assets/img/mettu_infrastructures_logo.png" alt="Logo">
                             <p>
-                                Excellence decisively impression contrasted remarkably. There spoke happy for you are out. Dear sure ye sold fine sell on.
+                                Excellence decisively impression contrasted remarkably. There spoke happy for you are
+                                out. Dear sure ye sold fine sell on.
                             </p>
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item link">
                             <h4>Services</h4>
                             <ul>
-                                <li>
-                                    <a href="./services">CUPBOARDS & WINDOWS & DOORS</a>
-                                </li>
-                                <li>
-                                    <a href="./services">PLUMBING & ELECTRICAL & FIXTURES</a>
-                                </li>
-                                <li>
-                                    <a href="./services">Owner’s Cost</a>
-                                </li>
-                                <li>
-                                    <a href="./services">SECURITY</a>
-                                </li>
-                              
-                                <li>
-                                    <a href="./services">KITCHEN</a>
-                                </li>
-                                <li>
-                                    <a href="./services">CEILING & FLOORING</a>
-                                </li>
+                                <li><a href="./services">CUPBOARDS & WINDOWS & DOORS</a></li>
+                                <li><a href="./services">PLUMBING & ELECTRICAL & FIXTURES</a></li>
+                                <li><a href="./services">OWNER'S COST</a></li>
+                                <li><a href="./services">SECURITY</a></li>
+                                <li><a href="./services">KITCHEN</a></li>
+                                <li><a href="./services">CEILING & FLOORING</a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item link">
                             <h4>Quick Links</h4>
                             <ul>
-                                <li>
-                                    <a href="./about">About</a>
-                                </li>
-                                <li>
-                                    <a href="./gallery">Gallery</a>
-                                </li>
-                                <li>
-                                    <a href="./services">Services</a>
-                                </li>
-                                <li>
-                                    <a href="./works">Works</a>
-                                </li>
-                                <li>
-                                    <a href="./blogs">Blogs</a>
-                                </li>
-                                <li>
-                                    <a href="./contact">Contact Us</a>
-                                </li>
+                                <li><a href="./about">ABOUT</a></li>
+                                <li><a href="./gallery">GALLERY</a></li>
+                                <li><a href="./services">SERVICES</a></li>
+                                <li><a href="./works">WORKS</a></li>
+                                <li><a href="./blogs">BLOGS</a></li>
+                                <li><a href="./contact">CONTACT US</a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item address">
                             <h4>Touch With Us</h4>
                             <div class="bottom">
                                 <ul>
-                                    <li><a href="https://www.facebook.com"  target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.twitter.com"   target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com"  target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                                     <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
@@ -667,7 +656,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -675,11 +663,9 @@
         <div class="footer-bottom bg-dark text-light">
             <div class="container">
                 <div class="row">
-
                     <div class="col-md-6">
                         <p>&copy; Copyright 2024. All Rights Reserved by Mettu Infrastructures | <a href="https://www.dt7.agency" target="_blank" style="color: #ea4723;"><b>DT7.Agency</b></a></p>
-                    </div>
-                    
+                    </div> 
                     <div class="col-md-6 text-right link">
                         <ul>
                             <li><a href="#">Terms of user</a></li>

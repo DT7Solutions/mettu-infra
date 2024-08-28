@@ -56,7 +56,7 @@
                     <div class="row">
                         <div class="top-search">
                             <div class="input-group">
-                                <form action="#">
+                                <form action="./services">
                                     <input type="text" name="text" class="form-control" placeholder="Search">
                                     <button type="submit">
                                         <i class="fas fa-search"></i>
@@ -71,10 +71,12 @@
 
                     <div class="attr-nav">
                         <ul>
-                            <li class="search pt-4"><a data-animation="animated slideInUp"
-                                    class="btn btn-light effect btn-md text-light" href="#"
-                                    style="margin-top: 6px; border-radius: 200px; font-size: 13px; padding: 0px 15px 0px 12px;">&nbsp;
-                                    &nbsp;<i class="fas fa-arrow-alt-circle-down"></i> Broacher &nbsp; &nbsp;</a></li>
+                            <li class="pt-4">
+                                <a data-animation="animated slideInUp" class="btn btn-light effect btn-md text-light" onclick="pdfbtn()"
+                                    style="margin-top: 6px; border-radius: 200px; font-size: 13px; padding: 0px 15px 0px 12px;">
+                                    &nbsp; &nbsp;<i class="fas fa-arrow-alt-circle-down"></i> Broacher &nbsp; &nbsp;
+                                </a>
+                            </li>
                         </ul>
                     </div>
 
@@ -88,29 +90,27 @@
                     </div>
 
                     <div class="collapse navbar-collapse" id="navbar-menu">
-                        <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
-                            <li class="active"><a class="smooth-menu" href="./">Home</a></li>
+                        <ul class="nav navbar-nav navbar-right" data-in="./services" data-out="./services">
+                            <li class=""><a class="smooth-menu" href="/">Home</a></li>
                             <li class=""><a class="smooth-menu" href="./about">About</a></li>
                             <li class=""><a class="smooth-menu" href="./gallery">Gallery</a></li>
                             <li class=""><a class="smooth-menu" href="./services">Services</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle smooth-menu" data-toggle="dropdown">Works</a>
+                            <li class="active dropdown">
+                                <a href="./works" class="dropdown-toggle smooth-menu" data-toggle="dropdown">Works</a>
                                 <ul class="dropdown-menu animated" style="display: none; opacity: 1;">
-                                    <li class="dropdown"><a href="./works" class="dropdown-toggle smooth-menu">On Going
-                                            Project</a>
+                                    <li class="dropdown active">
+                                        <a href="./meenakshi-padmam" class="dropdown-toggle smooth-menu">Ongoing Project</a>
                                         <ul class="dropdown-menu animated" style="display: none; opacity: 1;">
-                                            <li><a href="./meenakshi-padmam">Meenakshi Padmam</a></li>
-                                            <li><a href="./mettu-anjireddy-park">Mettu Anjireddy Park</a></li>
+                                            <li class=""><a href="./meenakshi-padmam">Meenakshi Padmam</a></li>
+                                            <li class="active"><a href="./mettu-anjireddy-park">Mettu Anjireddy Park</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./complited-projects">Complited Projects</a></li>
-                                    <li><a href="./works">Up Comming Projects</a></li>
+                                    <li class=""><a href="./complited-projects">Complited Projects</a></li>
+                                    <!-- <li><a href="./works">Up Comming Projects</a></li> -->
                                 </ul>
                             </li>
-                            <li class=""><a class="smooth-menu" href="./blogs">blog</a></li>
+                            <li class=""><a class="smooth-menu" href="./blogs">blogs</a></li>
                             <li class=""><a class="smooth-menu" href="./contact">Contact</a></li>
-
-
                         </ul>
                     </div>
 
@@ -127,8 +127,9 @@
                 <div class="col-lg-12 col-md-12">
                     <h1>Mettu Anjireddy Park</h1>
                     <ul class="breadcrumb">
-                        <li><a href="#"><i class="fas fa-home"></i> Complited Projects </a></li>
-                        <li><a href="#">Projects</a></li>
+                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="./works"> Works</a></li>
+                        <li><a href="./meenakshi-padmam">Ongoing Project</a></li>
                         <li class="active">Mettu Anjireddy Park</li>
                     </ul>
                 </div>
@@ -137,6 +138,7 @@
     </div>
     <!-- =======================End Breadcrumb====================== -->
 
+    <!-- =======================Start Project Info====================== -->
     <div class="portfolio-area carousel-shadow circle-icon text-center default-padding bg-gray heading-less">
         <div class="container">
             <!-- complited project section  -->
@@ -158,11 +160,10 @@
                         class="portfolio-items magnific-mix-gallery masonary going-projects-carousel owl-carousel owl-theme">
                         <div class="pf-item">
                             <div class="effect-up">
-                                <img src="./assets/img/projects/ongoing/mettu-anjireddy-park.webp" alt="Thumb">
+                                <img src="./assets/img/projects/ongoing/mettu-anjireddy-park.jpg" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="./assets/img/projects/ongoing/mettu-anjireddy-park.webp" class="item popup-link"><i
-                                                class="fa fa-search"></i></a>
+                                        <a href="./assets/img/projects/ongoing/mettu-anjireddy-park.jpg" class="item popup-link"><i class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
                                 </div>
@@ -171,11 +172,10 @@
 
                         <div class="pf-item">
                             <div class="effect-up">
-                                <img src="./assets/img/projects/ongoing/mettu-anjireddy-park.jpg" alt="Thumb">
+                                <img src="./assets/img/projects/ongoing/mettu-anjireddy-park-2.jpg" alt="Thumb">
                                 <div class="overlay">
                                     <div class="link">
-                                        <a href="assets/img/projects/meenakshi-flora.webp" class="item popup-link"><i
-                                                class="fa fa-search"></i></a>
+                                        <a href="assets/img/projects/ongoing/mettu-anjireddy-park-2.jpg" class="item popup-link"><i class="fa fa-search"></i></a>
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
                                 </div>
@@ -186,7 +186,9 @@
             </div>
         </div>
     </div>
+    <!-- =======================End Project Info====================== -->
 
+    <!-- =======================Start Project About====================== -->
     <div class="about-area inc-video default-padding">
         <div class="container">
             <div class="row">
@@ -212,9 +214,7 @@
                                 Fortune day out married parties. Happiness remainder joy but earnestly for off.
                                 Took sold add play may none him few. If as increasing contrasted entreaties be.
                             </p>
-                           
-                            <a href="#" class="btn btn-dark border btn-md"
-                                        data-animation="animated slideInUp">Download Broacher</a>
+                            <a class="btn btn-dark border btn-md" data-animation="animated slideInUp" onclick="pdfbtn()">Download Broacher</a>
                         </div>
                     </div>
                 </div>
@@ -222,6 +222,9 @@
             </div>
         </div>
     </div>
+    <!-- =======================End Project About====================== -->
+
+    <!-- =======================Start Features====================== -->
     <div class=" bg-gray  default-padding">
         <div class="container">
             <div class="row">
@@ -270,116 +273,86 @@
             </div>
         </div>
     </div>
+    <!-- =======================End Features====================== -->
 
-     
+    <!-- =======================Start CTA====================== -->
     <div class="achivement-area bg-fixed shadow dark text-light cal-to-action">
         <div class="container">
             <div class="row">
-              <div class="cal-row">
-                <div>
-                    <h3>
-                     We Are Happy to Help You</h3>
-                   </div>
-                   <div>
-                     <a href="#" class="btn btn-dark border btn-md cal-to-btn"
-                     data-animation="animated slideInUp">Download Broacher</a>
-                   </div>
-              </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="maps-area">
-        <div class="container-full">
-            <div class="row">
-                <div class="google-maps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14767.262289338461!2d70.79414485000001!3d22.284975!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1424308883981"></iframe>
+                <div class="cal-row">
+                    <div>
+                        <h3>We Are Happy to Help You</h3>
+                    </div>
+                    <div>
+                        <a class="btn btn-dark border btn-md cal-to-btn" data-animation="animated slideInUp" onclick="pdfbtn()">Download Broacher</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- =======================End CTA====================== -->
 
-  
+    <!-- =======================Start Map Area====================== -->
+    <div class="maps-area">
+        <div class="container-full">
+            <div class="row">
+                <div class="google-maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61263.77932739796!2d80.39323298274697!3d16.323648960750255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a755cb1787785%3A0x9f7999dd90f1e694!2sGuntur%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1724841875254!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =======================End Map Area====================== -->
 
-    
     <!-- =======================Start Footer====================== -->
     <footer class="bg-light col-4 inc-border">
 
         <div class="container">
             <div class="row">
                 <div class="f-items default-padding">
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item">
                             <img src="assets/img/mettu_infrastructures_logo.png" alt="Logo">
                             <p>
-                                Excellence decisively impression contrasted remarkably. There spoke happy for you are out. Dear sure ye sold fine sell on.
+                                Excellence decisively impression contrasted remarkably. There spoke happy for you are
+                                out. Dear sure ye sold fine sell on.
                             </p>
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item link">
                             <h4>Services</h4>
                             <ul>
-                                <li>
-                                    <a href="./services">CUPBOARDS & WINDOWS & DOORS</a>
-                                </li>
-                                <li>
-                                    <a href="./services">PLUMBING & ELECTRICAL & FIXTURES</a>
-                                </li>
-                                <li>
-                                    <a href="./services">Owner’s Cost</a>
-                                </li>
-                                <li>
-                                    <a href="./services">SECURITY</a>
-                                </li>
-                              
-                                <li>
-                                    <a href="./services">KITCHEN</a>
-                                </li>
-                                <li>
-                                    <a href="./services">CEILING & FLOORING</a>
-                                </li>
+                                <li><a href="./services">CUPBOARDS & WINDOWS & DOORS</a></li>
+                                <li><a href="./services">PLUMBING & ELECTRICAL & FIXTURES</a></li>
+                                <li><a href="./services">OWNER'S COST</a></li>
+                                <li><a href="./services">SECURITY</a></li>
+                                <li><a href="./services">KITCHEN</a></li>
+                                <li><a href="./services">CEILING & FLOORING</a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item link">
                             <h4>Quick Links</h4>
                             <ul>
-                                <li>
-                                    <a href="./about">About</a>
-                                </li>
-                                <li>
-                                    <a href="./gallery">Gallery</a>
-                                </li>
-                                <li>
-                                    <a href="./services">Services</a>
-                                </li>
-                                <li>
-                                    <a href="./works">Works</a>
-                                </li>
-                                <li>
-                                    <a href="./blogs">Blogs</a>
-                                </li>
-                                <li>
-                                    <a href="./contact">Contact Us</a>
-                                </li>
+                                <li><a href="./about">ABOUT</a></li>
+                                <li><a href="./gallery">GALLERY</a></li>
+                                <li><a href="./services">SERVICES</a></li>
+                                <li><a href="./works">WORKS</a></li>
+                                <li><a href="./blogs">BLOGS</a></li>
+                                <li><a href="./contact">CONTACT US</a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-6 equal-height item">
                         <div class="f-item address">
                             <h4>Touch With Us</h4>
                             <div class="bottom">
                                 <ul>
-                                    <li><a href="https://www.facebook.com"  target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.twitter.com"   target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com"  target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                                     <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
@@ -396,7 +369,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -404,11 +376,9 @@
         <div class="footer-bottom bg-dark text-light">
             <div class="container">
                 <div class="row">
-
                     <div class="col-md-6">
                         <p>&copy; Copyright 2024. All Rights Reserved by Mettu Infrastructures | <a href="https://www.dt7.agency" target="_blank" style="color: #ea4723;"><b>DT7.Agency</b></a></p>
-                    </div>
-                    
+                    </div> 
                     <div class="col-md-6 text-right link">
                         <ul>
                             <li><a href="#">Terms of user</a></li>
