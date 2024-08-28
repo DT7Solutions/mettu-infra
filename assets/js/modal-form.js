@@ -11,6 +11,15 @@ $(document).ready(function() {
         if (isNaN(String.fromCharCode(e.which))) e.preventDefault();
     });
 
+    document.getElementById('main_category').addEventListener('change', function () {
+        var enquiryOptions = document.getElementById('enquiries-options');
+        if (this.value === 'enquiries') {
+            enquiryOptions.style.display = 'block';
+        } else {
+            enquiryOptions.style.display = 'none';
+        }
+    });
+    
     // setTimeout(function(){
     //     $('#phoneModal').modal('show');
     // },200);
@@ -28,9 +37,10 @@ $(document).ready(function() {
 
         if (this.checkValidity()) {
             var formData = {
-                firstName: document.getElementById('full_name').value,
-                phoneNumber: iti.getNumber(),
-                email: document.getElementById('email').value
+                fullName: document.getElementById('full_name').value,
+                phoneNumber1: iti.getNumber(),
+                mainCategory: document.getElementById('main_category').value,
+                subCategory: document.getElementById('sub_category') ? document.getElementById('sub_category').value : null
             };
             console.log("Enquary Form submitted successfully!", JSON.stringify(formData, null, 2));
             alert("Form submitted successfully!");
