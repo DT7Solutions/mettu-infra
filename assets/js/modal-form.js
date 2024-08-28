@@ -11,9 +11,17 @@ $(document).ready(function() {
         if (isNaN(String.fromCharCode(e.which))) e.preventDefault();
     });
 
-    setTimeout(function(){
-        $('#phoneModal').modal('show');
-    },200);
+    // setTimeout(function(){
+    //     $('#phoneModal').modal('show');
+    // },200);
+    
+     // Show modal once per session
+     if (!sessionStorage.getItem('modalShown')) {
+        setTimeout(function() {
+            $('#phoneModal').modal('show');
+            sessionStorage.setItem('modalShown', 'true'); // Set flag in localStorage
+        }, 100);
+    }
 
     $("#phone-form").on("submit", function(event) {
         event.preventDefault();
