@@ -24,8 +24,8 @@ $(document).ready(function() {
     //     $('#phoneModal').modal('show');
     // },200);
     
-     // Show modal once per session
-     if (!sessionStorage.getItem('modalShown')) {
+    // Show modal once per session
+    if (!sessionStorage.getItem('modalShown')) {
         setTimeout(function() {
             $('#phoneModal').modal('show');
             sessionStorage.setItem('modalShown', 'true'); // Set flag in localStorage
