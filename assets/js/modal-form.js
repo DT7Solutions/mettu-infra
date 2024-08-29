@@ -12,14 +12,20 @@ $(document).ready(function() {
     });
 
     document.getElementById('main_category').addEventListener('change', function () {
-        var enquiryOptions = document.getElementById('enquiries-options');
+        var enquiries = document.getElementById('enquiries');
+        var others = document.getElementById('others');
         if (this.value === 'enquiries') {
-            enquiryOptions.style.display = 'block';
+            enquiries.style.display = 'block';
+            others.style.display = 'none';
+        } else if (this.value === 'others') {
+            enquiries.style.display = 'none';
+            others.style.display = 'block';
         } else {
-            enquiryOptions.style.display = 'none';
+            enquiries.style.display = 'none';
+            others.style.display = 'none';
         }
     });
-    
+
     // setTimeout(function(){
     //     $('#phoneModal').modal('show');
     // },200);
@@ -36,20 +42,25 @@ $(document).ready(function() {
         event.preventDefault();
 
         if (this.checkValidity()) {
+            var mainCategoryValue = document.getElementById('main_category').value;
+            var subCategoryValue = null;
+            if (mainCategoryValue === 'enquiries') {
+                subCategoryValue = document.getElementById('sub_category').value;
+            } else if (mainCategoryValue === 'others') {
+                subCategoryValue = document.getElementById('others').querySelector('input').value;
+            }
             var formData = {
                 fullName: document.getElementById('full_name').value,
-                phoneNumber1: iti.getNumber(),
-                mainCategory: document.getElementById('main_category').value,
-                subCategory: document.getElementById('sub_category') ? document.getElementById('sub_category').value : null
+                phoneNumber: iti.getNumber(),
+                mainCategory: mainCategoryValue,
+                subCategory: subCategoryValue
             };
             console.log("Enquary Form submitted successfully!", JSON.stringify(formData, null, 2));
             alert("Form submitted successfully!");
 
             this.reset();
             iti.setNumber(""); 
-            var myModalEl = document.getElementById('phoneModal');
-            var modal = bootstrap.Modal.getInstance(myModalEl);
-            modal.hide();
+            $('#phoneModal').modal('hide');
         } else {
             alert("Please fill in all required fields.");
         }

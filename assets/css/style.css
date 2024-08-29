@@ -5077,8 +5077,8 @@ footer.bg-dark .footer-bottom {
 
 .info .step-points{
   list-style: circle;
-
 }
+
 .info .step-points ul li span{
   float: inline-start;
 }
@@ -5093,6 +5093,7 @@ footer.bg-dark .footer-bottom {
 }
 .work-process-area-work .item .info ul li{
   color: white;
+  list-style: none;
 }
 
 

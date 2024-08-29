@@ -64,8 +64,7 @@
                             <input type="text" class="form-control" id="full_name" placeholder="Your Name" required />
                         </div>
                         <div class="mb-3">
-                            <input type="tel" id="mobile_code" class="form-control" placeholder="Phone Number"
-                                required />
+                            <input type="tel" id="mobile_code" class="form-control" required />
                         </div>
                         <div class="mb-3">
                             <select class="form-control" id="main_category" required style="min-height: 50px;">
@@ -77,7 +76,7 @@
                                 <option value="others">Others</option>
                             </select>
                         </div>
-                        <div class="mb-3" id="enquiries-options" style="display: none;">
+                        <div class="mb-3" id="enquiries" style="display: none;">
                             <select class="form-control" id="sub_category" style="min-height: 50px;">
                                 <option value="" disabled selected>Select Enquiry Type</option>
                                 <option value="independent-houses">Independent Houses</option>
@@ -86,6 +85,9 @@
                                 <option value="parks">Parks</option>
                                 <option value="residential-options">Residential Options</option>
                             </select>
+                        </div>
+                        <div class="mb-3" id="others" style="display: none;">
+                            <input type="text" class="form-control" id="sub_category" placeholder="Enter a Message">
                         </div>
                         <button data-animation="animated slideInUp" type="submit"
                             class="btn btn-dark effect btn-md">Submit</button>
