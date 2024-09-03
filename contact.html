@@ -6,10 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Buildco - Factory, Industrial & Construction Template">
 
-    <!-- ========== Page Title ========== -->
-    <title>mettu infrastructures</title>
+    <!-- ========== Meta Info ========== -->
+    <title>Contact Us | Mettu Infra | Get in Touch with Construction Experts</title>
+    <meta name="description" content="Contact Mettu Infra for your construction needs. Our team with over 15 years of experience is ready to assist you." />
+    <meta name="keywords" content="contact Mettu Infra, construction experts contact, building inquiries, Mettu Infra team" />
 
     <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
@@ -57,7 +58,7 @@
                     <div class="row">
                         <div class="top-search">
                             <div class="input-group">
-                                <form action="#">
+                                <form action="./services">
                                     <input type="text" name="text" class="form-control" placeholder="Search">
                                     <button type="submit">
                                         <i class="fas fa-search"></i>
@@ -72,10 +73,12 @@
 
                     <div class="attr-nav">
                         <ul>
-                            <li class="search pt-4"><a data-animation="animated slideInUp"
-                                    class="btn btn-light effect btn-md text-light" href="#"
-                                    style="margin-top: 6px; border-radius: 200px; font-size: 13px; padding: 0px 15px 0px 12px;">&nbsp;
-                                    &nbsp;<i class="fas fa-arrow-alt-circle-down"></i> Broacher &nbsp; &nbsp;</a></li>
+                            <li class="pt-4">
+                                <a data-animation="animated slideInUp" class="btn btn-light effect btn-md text-light" onclick="pdfbtn()"
+                                    style="margin-top: 6px; border-radius: 200px; font-size: 13px; padding: 0px 15px 0px 12px;">
+                                    &nbsp; &nbsp;<i class="fas fa-arrow-alt-circle-down"></i> Broacher &nbsp; &nbsp;
+                                </a>
+                            </li>
                         </ul>
                     </div>
 
@@ -89,29 +92,27 @@
                     </div>
 
                     <div class="collapse navbar-collapse" id="navbar-menu">
-                        <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
-                            <li class=""><a class="smooth-menu" href="./">Home</a></li>
+                        <ul class="nav navbar-nav navbar-right" data-in="./services" data-out="./services">
+                            <li class=""><a class="smooth-menu" href="/">Home</a></li>
                             <li class=""><a class="smooth-menu" href="./about">About</a></li>
                             <li class=""><a class="smooth-menu" href="./gallery">Gallery</a></li>
                             <li class=""><a class="smooth-menu" href="./services">Services</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle smooth-menu" data-toggle="dropdown">Works</a>
+                                <a href="./works" class="dropdown-toggle smooth-menu" data-toggle="dropdown">Works</a>
                                 <ul class="dropdown-menu animated" style="display: none; opacity: 1;">
-                                    <li class="dropdown"><a href="./works" class="dropdown-toggle smooth-menu">On Going
-                                            Project</a>
+                                    <li class="dropdown">
+                                        <a href="./on-going-project" class="dropdown-toggle smooth-menu">On Going Project</a>
                                         <ul class="dropdown-menu animated" style="display: none; opacity: 1;">
-                                            <li><a href="./meenakshi-padmam">Meenakshi Padmam</a></li>
-                                            <li><a href="./mettu-anjireddy-park">Mettu Anjireddy Park</a></li>
+                                            <li class=""><a href="./meenakshi-padmam">Meenakshi Padmam</a></li>
+                                            <li class=""><a href="./mettu-anjireddy-park">Mettu Anjireddy Park</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./complited-projects">Complited Projects</a></li>
-                                    <li><a href="./works">Up Comming Projects</a></li>
+                                    <li class=""><a href="./complited-projects">Complited Projects</a></li>
+                                    <!-- <li><a href="./works">Up Comming Projects</a></li> -->
                                 </ul>
                             </li>
-                            <li class=""><a class="smooth-menu" href="./blogs">blog</a></li>
+                            <li class=""><a class="smooth-menu" href="./blogs">blogs</a></li>
                             <li class="active"><a class="smooth-menu" href="./contact">Contact</a></li>
-
-
                         </ul>
                     </div>
 
@@ -196,24 +197,32 @@
                         </div>
                     </form>
 
-                    <ul>
-                        <li>
-                            <div class="icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="info">
-                                <span>Phone number</span> +99-34-8878-9989
-                            </div>
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <i class="fas fa-envelope-open"></i>
-                            </div>
-                            <div class="info">
-                                <span>Email</span> info@yourdomain.com
-                            </div>
-                        </li>
-                    </ul>
+                    <div>
+                        <ul>
+                            <li>
+                                <div class="icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="info">
+                                    <span>Phone number</span> 
+                                    <a href="tel:+919502822555">+91 9502822555</a>, 
+                                    <a href="tel:+919440292392">+91 9440292392</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <div class="icon">
+                                    <i class="fas fa-envelope-open"></i>
+                                </div>
+                                <div class="info">
+                                    <span>Email</span> 
+                                    <a href="mailto:mettuinfrastructures@hotmail.com">mettuinfrastructures@hotmail.com</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>                    
+
                 </div>
 
             </div>
@@ -226,7 +235,7 @@
         <div class="container-full">
             <div class="row">
                 <div class="google-maps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61263.77932739796!2d80.39323298274697!3d16.323648960750255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a755cb1787785%3A0x9f7999dd90f1e694!2sGuntur%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1724841875254!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d7440.570071037252!2d80.40517737547785!3d16.30772711100797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDE4JzI4LjQiTiA4MMKwMjQnMzcuOSJF!5e0!3m2!1sen!2sin!4v1725345897793!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

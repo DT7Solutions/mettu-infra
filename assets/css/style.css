@@ -3404,8 +3404,8 @@ body,
   border-right: 1px solid #e7e7e7;
   display: inline-block;
   float: left;
-  margin-right: 20px;
-  padding-right: 20px;
+  margin-right: 1.5%;
+  padding-right: 1.5%;
 }
 
 .contact-area ul li .icon, .contact-area ul li .info {
@@ -3429,7 +3429,7 @@ body,
 
 .contact-area ul {
   border: 1px solid #e7e7e7;
-  margin-top: 30px;
+  margin-top: 2.5%;
   overflow: hidden;
   padding: 15px;
 }
@@ -5159,7 +5159,11 @@ footer.bg-dark .footer-bottom {
 .complited-projects .pf-item .info{
   background-color: white;
   padding: 10px 15px;
-
+  min-height: 75px;
+}
+.complited-projects .pf-item .info h3{
+  font-size: 22px;
+  margin-bottom: 2.5%;
 }
 
 .ongoing-hom-sec .info-content .content{
