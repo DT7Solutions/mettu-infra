@@ -1696,6 +1696,7 @@ body,
 
 .services-area.inc-thumb.flex-less .info .content p {
   margin: 0;
+  text-align: justify;
 }
 
 .services-area.inc-thumb.flex-less .info .content .top-info {
