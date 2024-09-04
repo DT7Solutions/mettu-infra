@@ -1591,7 +1591,7 @@ body,
 }
 
 .about-area ul {
-  margin-top: 20px;
+  margin: 2.5% 0%;
 }
 
 .about-area .info-content ul li h5 {
@@ -5132,9 +5132,8 @@ footer.bg-dark .footer-bottom {
 
 
 .popup-model .modal-dialog {
-  width: 650px;
   height: auto;
-  padding: 30px;;
+  padding: 2.5% 7.5% 2.5% 5%;
 }
 .model-pop-radio-btn{
   display: flex;
@@ -5148,8 +5147,12 @@ footer.bg-dark .footer-bottom {
 .service-sec .item .content{
   height:170px !important;
 }
+.service-sec .equal-height .item .content{
+  min-height: 200px;
+}
 .service-sec .item .content h4{
   font-weight: 600;
+  margin-bottom: 2.5%;
 }
 
 .complited-projects .pf-item{
@@ -5167,9 +5170,6 @@ footer.bg-dark .footer-bottom {
   margin-bottom: 2.5%;
 }
 
-.ongoing-hom-sec .info-content .content{
-  margin-top: 50px;
-}
 .project-exp-sec {
   background-image: url(../img/projects/ongoing/meenakshi-padmam.jpg);
   background-position: center;
@@ -5181,7 +5181,7 @@ footer.bg-dark .footer-bottom {
 }
 
 .cal-to-action{
-  background-image: url(/assets/img/banners/background-2.png );
+  background-image: url(../img/banners/background-2.png );
   height: 300px;
 
 }
@@ -5232,3 +5232,12 @@ nav.navbar.bootsnav ul.nav > li > ul.dropdown-menu > li > ul.dropdown-menu > li 
 /* .why-choose-sec{
  
 } */
+
+.about-area .ongoing-hom-sec {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-area .content p {
+  text-align: justify;
+}

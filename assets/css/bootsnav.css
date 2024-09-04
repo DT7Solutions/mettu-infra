@@ -1805,7 +1805,7 @@ nav.navbar.bootsnav {
 
   nav.navbar.bootsnav .navbar-nav {
     float: none !important;
-    padding-left: 30px;
+    padding-left: 0px;
     padding-right: 30px;
     margin: 0px;
   }
