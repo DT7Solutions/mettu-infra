@@ -5214,3 +5214,21 @@ nav.navbar.bootsnav ul.nav > li > ul.dropdown-menu > li > a:hover,
 nav.navbar.bootsnav ul.nav > li > ul.dropdown-menu > li > ul.dropdown-menu > li > a:hover {
   color: #ff5e14;
 }
+
+
+.founders-sec {
+  margin-left: -210px !important;
+}
+
+@media only screen and (max-width: 480px) {
+  .founders-sec {
+    margin-left: 0px !important;
+  }
+  .why-choose-sec .thumb{
+    display: none;
+  }
+}
+
+/* .why-choose-sec{
+ 
+} */
