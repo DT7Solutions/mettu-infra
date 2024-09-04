@@ -958,107 +958,6 @@
     </div>
     <!-- =====================End Work Process======================== -->
 
-    <!-- =====================Start Work Process======================== -->
-    <div class="work-process-area default-padding" style="display: none;">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="site-heading text-center">
-                        <h4>Our Work Process</h4>
-                        <h2>How does it works</h2>
-                        <p>
-                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it
-                            examine express promise no. Past add size game cold girl off how old
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="works-process-items">
-
-                    <div class="col-md-4">
-                        <div class="item">
-                            <div class="icon">
-                                <i class="fas fa-drafting-compass"></i>
-                                <!-- <i class="flaticon-concept"></i> -->
-                            </div>
-                            <div class="content">
-                                <div class="vertical-line">
-                                    <span>01</span>
-                                </div>
-                                <div class="info">
-                                    <h4>Planning and Design</h4>
-                                    <ul class="step-points">
-                                        <li>Receive project brief and requirements from client</li>
-                                        <li><span>Conduct site analysis and feasibility studies</span></li>
-                                        <li>Develop concept designs and proposals</li>
-                                        <li>Create detailed designs, blueprints, and specifications</li>
-                                        <li>Obtain necessary permits and approvals</li>
-                                        <li>Finalize project timeline, budget, and resources</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="item">
-                            <div class="icon">
-                                <!-- <i class="flaticon-flasks"></i> -->
-                                <i class="fas fa-wrench"></i>
-                            </div>
-                            <div class="content">
-                                <div class="vertical-line">
-                                    <span>02</span>
-                                </div>
-                                <div class="info">
-                                    <h4> Construction and Execution</h4>
-                                    <ul class="step-points">
-                                        <li>Mobilize resources, equipment, and labor to the site</li>
-                                        <li>Conduct site preparation, excavation, and foundation work</li>
-                                        <li>Install utilities, electrical, and plumbing systems</li>
-                                        <li>Construct buildings, structures, and install finishes</li>
-                                        <li>Conduct regular quality control and safety inspections</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="item">
-                            <div class="icon">
-                                <!-- <i class="flaticon-implement"></i> -->
-                                <i class="fas fa-home"></i>
-                            </div>
-                            <div class="content">
-                                <div class="vertical-line">
-                                    <span>03</span>
-                                </div>
-                                <div class="info">
-                                    <h4>Completion and Handover </h4>
-                                    <ul class="step-points">
-                                        <li>Complete final inspections and testing</li>
-                                        <li>Obtain final certifications and approvals</li>
-                                        <li>Address any defects or punch list items</li>
-                                        <li>Hand over the completed project to the client</li>
-                                        <li>Provide training and documentation for operation and maintenance</li>
-                                        <li>Evaluate project success and gather feedback for future improvements</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- =====================End Work Process======================== -->
-
     <!-- =====================Start Blog======================== -->
     <div class="blog-area default-padding bg-gray bottom-less">
         <div class="container">
@@ -1185,11 +1084,11 @@
                         </p>
                     </div>                    
                     
-                    <form action="assets/mail/contact.php" method="POST" class="contact-form consultent-form">
+                    <form class="contact-form" id="contact-form">
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="form-group">
-                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text">
+                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
                                     <span class="alert-error"></span>
                                 </div>
                             </div>
@@ -1197,14 +1096,13 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input class="form-control" id="email" name="email" placeholder="Email*"
-                                        type="email">
+                                    <input class="form-control" id="email" name="email" placeholder="Email*" type="email" required>
                                     <span class="alert-error"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
+                                    <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text" required>
                                     <span class="alert-error"></span>
                                 </div>
                             </div>
@@ -1212,8 +1110,7 @@
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="form-group comments">
-                                    <textarea class="form-control" id="comments" name="comments"
-                                        placeholder="Tell Us About Project *"></textarea>
+                                    <textarea class="form-control" id="comments" name="comments" placeholder="Tell Us About Project *" required></textarea>
                                 </div>
                             </div>
                         </div>
@@ -1228,7 +1125,7 @@
                         <div class="col-md-12 alert-notification">
                             <div id="message" class="alert-msg"></div>
                         </div>
-                    </form>
+                    </form>                    
 
                     <div>
                         <ul>
@@ -1449,7 +1346,8 @@
     <script src="assets/js/bootsnav.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/intlTelInput.min.js"></script>
-    <script src="assets/js/modal-form.js"></script>
+    <script src="assets/js/all-form-submit.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
 </body>
 

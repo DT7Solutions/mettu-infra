@@ -5241,3 +5241,15 @@ nav.navbar.bootsnav ul.nav > li > ul.dropdown-menu > li > ul.dropdown-menu > li 
 .about-area .content p {
   text-align: justify;
 }
+
+.alert-notification {
+  padding: 0%;
+}
+.alert {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 2.5% 5%;
+  margin: 2.5% 0%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
