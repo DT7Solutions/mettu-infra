@@ -129,7 +129,7 @@
                 <div class="col-lg-12 col-md-12">
                     <h1>Contact Us</h1>
                     <ul class="breadcrumb">
-                                                <li><a href="./"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="./"><i class="fas fa-home"></i> Home</a></li>
                         <li class="active">Contact</li>
                     </ul>
                 </div>
@@ -148,17 +148,17 @@
                 <div class="col-md-6 contact-items">
 
                     <div class="heading">
-                        <h2>Get a Free Quote Today</h2>
+                        <h2>Get Contact Us</h2>
                         <p>
                             Contact us for a free consultation and personalized quote. Our expert team is available 24/7 to assist you with your construction needs. Reach out now!
                         </p>
                     </div>
 
-                    <form action="" method="POST" class="contact-form">
+                    <form class="contact-form" id="contact-form">
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="form-group">
-                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text">
+                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
                                     <span class="alert-error"></span>
                                 </div>
                             </div>
@@ -166,13 +166,13 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
+                                    <input class="form-control" id="email" name="email" placeholder="Email*" type="email" required>
                                     <span class="alert-error"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
+                                    <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text" required>
                                     <span class="alert-error"></span>
                                 </div>
                             </div>
@@ -180,7 +180,7 @@
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="form-group comments">
-                                    <textarea class="form-control" id="comments" name="comments" placeholder="Tell Us About Project *"></textarea>
+                                    <textarea class="form-control" id="comments" name="comments" placeholder="Tell Us About Project *" required></textarea>
                                 </div>
                             </div>
                         </div>
@@ -191,7 +191,7 @@
                                 </button>
                             </div>
                         </div>
- 
+                        <!-- Alert Message -->
                         <div class="col-md-12 alert-notification">
                             <div id="message" class="alert-msg"></div>
                         </div>
@@ -347,6 +347,8 @@
     <script src="assets/js/bootsnav.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/intlTelInput.min.js"></script>
+    <script src="assets/js/all-form-submit.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
 </body>
 </html>
