@@ -1090,6 +1090,17 @@
   footer .bottom {
     padding-top: 30px;
   }
+
+  .go-top {
+    scale: 1 !important;
+    width: 35px !important;
+    height: 35px !important;
+    right: 3.5% !important;
+  }
+
+  .webing-whatsapp-button a {
+    max-width: 50px !important;
+  }
 }
 
 /* Max Wide Mobile Layout: 600px. */

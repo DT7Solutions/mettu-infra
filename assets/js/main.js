@@ -485,8 +485,41 @@
 
 
 
+/* Back To Top & Floating Icons*/
+(function($) {
+    'use strict'
+    var goTop = function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.go-top').addClass('show');
+            } else {
+                $('.go-top').removeClass('show');
+            }
+        });
+
+        $('.go-top').on('click', function () {
+            $("html, body").animate({ scrollTop: 0 }, 1000, 'easeInOutExpo');
+            return false;
+        });
+    };
+
+    // Dom Ready
+	$(function() { 
+        goTop();
+   	});
+})(jQuery); 
+
 /*DOWNLOAD E-CATALOGUE BROCHURES-CATALOGUE*/
 function pdfbtn() {
-    var pdfUrl = './mettu-infra-structure-brochure.pdf';
+    var pdfUrl = './assets/files/mettu-infra-structure-brochure.pdf';
+    window.open(pdfUrl, '_blank');
+}
+
+function meenakshipadmampdfbtn() {
+    var pdfUrl = './assets/files/meenakshi-padmam.pdf';
+    window.open(pdfUrl, '_blank');
+}
+function mettuanjireddyparkpdfbtn() {
+    var pdfUrl = './assets/files/mettu-anjireddy-park.pdf';
     window.open(pdfUrl, '_blank');
 }
