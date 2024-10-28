@@ -511,7 +511,8 @@
 
 /*DOWNLOAD E-CATALOGUE BROCHURES-CATALOGUE*/
 function pdfbtn() {
-    var pdfUrl = './assets/files/mettu-infra-structure-brochure.pdf';
+    var pdfUrl = './assets/files/meenakshi-padmam.pdf';
+    // var pdfUrl = './assets/files/mettu-infra-structure-brochure.pdf';
     window.open(pdfUrl, '_blank');
 }
 

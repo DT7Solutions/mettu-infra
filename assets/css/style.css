@@ -4526,7 +4526,7 @@ footer .f-item > img {
 
 .f-items {
   float: left;
-  padding-bottom: 75px;
+  padding-bottom: 40px;
   width: 100%;
 }
 
@@ -4534,6 +4534,16 @@ footer.border-right .f-items {
   float: left;
   padding-bottom: 0;
   overflow: hidden;
+}
+
+footer .footer-logos {
+  display: inline-flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5%;
+}
+footer .footer-logos img {
+  max-width: 100%;
 }
 
 footer.border-right h4 {
